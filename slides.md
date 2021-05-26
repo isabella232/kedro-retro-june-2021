@@ -50,11 +50,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters
 - A <kbd>DataCatalog</kbd> for your `DataSets`
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API
-- Built for teams to collaborate  <carbon-events class="inline"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
 
 
 <Socials />
@@ -72,11 +72,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters ⬅
 - A <kbd>DataCatalog</kbd> for your `DataSets`
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API
-- Built for teams to collaborate  <carbon-events class="inline"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
 
 
 <Socials />
@@ -95,11 +95,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters 
 - A <kbd>DataCatalog</kbd> for your `DataSets` ⬅
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API
-- Built for teams to collaborate  <carbon-events class="inline"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
 
 <Socials />
 
@@ -116,11 +116,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters 
 - A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions ⬅
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions ⬅
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API
-- Built for teams to collaborate  <carbon-events class="inline"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
 
 <Socials />
 
@@ -136,11 +136,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters 
 - A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects ⬅
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API
-- Built for teams to collaborate  <carbon-events class="inline"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
 
 <Socials />
 
@@ -156,11 +156,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters 
 - A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions 
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions 
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API ⬅
-- Built for teams to collaborate  <carbon-events class="inline"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API ⬅
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
 
 <Socials />
 
@@ -176,11 +176,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters 
 - A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions 
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions 
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API
-- Built for teams to collaborate  <carbon-events class="inline"/> ⬅
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> ⬅
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
 
 <Socials />
 
@@ -196,11 +196,11 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 - Cookie-cutter project template starters 
 - A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline"/> functions 
+- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions 
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline"/> and CLI  <carbon-terminal class="inline"/> API
+- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
 - Built for teams to collaborate  <carbon-events class="inline"/>
-- Kedro Viz <carbon-data-vis-3 class="inline"/> visualising pipelines ⬅
+- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines ⬅
 
 <Socials />
 

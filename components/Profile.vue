@@ -18,7 +18,7 @@ const img = "imgs/profiles/"+props.name+".png";
 
 <template>
 <div class="justify-center">
-<div class="max-w-23">
+<div class="max-w-23 shadow-lg">
     <div class="bg-dark-500 rounded-lg py-2 flex flex-col content-between -space-y-7">
     <span class="relative left-13 -top-3">
     <a :href="gh" target="_blank"
@@ -34,7 +34,7 @@ const img = "imgs/profiles/"+props.name+".png";
         </div>
         <div>
         <br>
-            <p class="text-center text-gray-400">{{name}}</p>
+            <p class="text-center text-gray-300">{{name}}</p>
             <p class="text-xs text-center">{{role}}</p>
         </div>
     </div>
