@@ -30,15 +30,22 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 - 🤔 What actually is Kedro?
 - 🤖 Meet the team
 - 👩‍🍳 What the team have been cooking
-- 🧪 Experiment tracking 
-- 🎁 Packaging 
-- 💅 Kedro Viz: Not just a pretty face 
+- 🗑 No context Kedro 
+- 💅 Kedro Viz: Not just a pretty face
 - 🔮 A look to the future 
-- 👋 Community support 
+
+<div class='text-xs ml-6'>
+
+- Experiment tracking 🧪 
+- Packaging 🎁
+- Configuration ⚙️
+
+</div>
+
+- 👋 Community improvements 
 - 📣 Q&A
 
 <Socials />
-
 
 ---
 layout: iframe-right
@@ -203,7 +210,7 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 - <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions 
 - <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
 - Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline"/>
+- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/>
 - Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines ⬅
 
 <Socials />
@@ -246,5 +253,138 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 </div>
 </div>
 <Socials />
+
 ---
 
+## What have been cooking recently 👩‍🍳?
+
+ 
+
+<h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd> and <kbd>0.17.3</kbd></h3>
+
+
+<div v-click>
+
+<p class="text-m"> Breaking changes</p>
+
+- 📼 `KedroSession` is the new way we manage the lifecycle of a run.
+- 🐍 `settings.py` and `pyproject.toml`  replace `.kedro.yml` for project configuration
+- 📌 `__main__.py` is the new project entry-point
+</div>
+
+<div v-click>
+
+<p class="text-m"> Other highlights</p>
+
+- 🧘‍♂️ Lazy loading of registered `Pipeline` objects
+- 🆕 `Jinja2` templating added to `TemplatedconfigLoader`
+- 🏃‍♀️ Complete rewrite of the `Kedro Viz` back-end using `FastAPI`
+- 🎁 Improved packaging
+- 🙌 Custom starters, new hooks, customisable CLI, bug fixes 🐛 and more...
+</div>
+
+<Socials />
+---
+
+# No context Kedro ?
+
+<v-clicks>
+
+- <carbon-clean class="inline text-yellow-500"/> In the beginning there was no context
+- <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
+- <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> sessions)
+- 😭 It's now time to start divorce proceedings and move to a new approach...
+
+</v-clicks>
+
+<div class="grid grid-cols-3 p-1">
+<div v-click class="border border-yellow-500 rounded-lg py-2 content-between m-3">
+<p class="text-center font-mono">KedroSession</p>
+
+<div class="text-sm">
+
+- Introducing a <feather-database class="inline text-yellow-500"/>  store
+- Deprecates the Journal <carbon-trash-can class="inline text-yellow-500"/>
+- Time-travel superpowers <noto-superhero-medium-dark-skin-tone class="inline"/> 
+
+</div>
+
+</div>
+
+<div v-click class="border border-yellow-500 rounded-lg py-2 content-between m-3">
+<p class="text-center font-mono">settings.py</p>
+
+<div class="text-sm">
+
+- The recipe for a run <mdi-chef-hat class="inline text-yellow-500"/>
+- <el-home-alt class="inline text-yellow-500"/> for `hooks` and `/conf/` loc
+- <ri-caravan-fill class="inline text-yellow-500"/> `DataCatalog` is moving too...
+
+</div>
+
+</div>
+<div v-click class="border border-yellow-500 rounded-lg py-2 content-between m-3">
+<p class="text-center font-mono text-xl">pyproject.toml</p>
+
+<div class="text-sm">
+
+- <carbon-logo-python class="inline text-yellow-500"/> winds are changing...
+- Kedro directory detection <carbon-terminal class="inline text-yellow-500"/>
+- <el-home-alt class="inline text-yellow-500"/> for packaging spec in the future
+</div>
+
+
+</div>
+</div>
+
+<v-clicks after="5">
+
+<div>
+
+```ini
+kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSessionStore'. Assuming empty store
+```
+<p class="text-xs">☝️ This annoying message will soon dissapear!</p>
+
+</div>
+
+</v-clicks>
+
+<Socials />
+
+---
+
+# 💅 Kedro Viz: Not just a pretty face
+
+- FastAPI rewrite
+- Plotly
+- Modular pipelines
+
+<Socials />
+
+---
+
+# 🔮 A look to the future 
+
+- Experiment tracking
+- Packaging
+- Config
+- GE?
+
+<Socials />
+
+---
+
+# 👋 Community improvements
+
+- Discord
+- GitHub Discussions
+- Discourse
+
+<Socials />
+
+---
+layout: quote
+---
+# 📣 Open Q&A Session
+<Socials />
