@@ -375,6 +375,68 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 
 ---
 
+# 🧪 Experiment tracking is coming to Kedro!
+
+<div v-click>
+<h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded text-green-600 mr-2"><carbon-checkmark-filled class="inline text-green-600 mr-1"/>IN PROGRESS</span>User research phase</h3>
+
+<div grid="~ cols-3 gap-4">
+<div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
+  <img class="object-cover w-full h-22" src="imgs/exp_a.png"/>
+  <div class="absolute top-0 left-0 px-6 py-4">
+  </div>
+</div>
+
+<div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
+  <img class="object-cover w-full h-22" src="imgs/exp_b.png"/>
+  <div class="absolute top-0 left-0 px-6 py-4">
+  </div>
+</div>
+
+<div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
+  <img class="object-cover w-full h-22" src="imgs/exp_c.png"/>
+  <div class="absolute top-0 left-0 px- py-4">
+  </div>
+</div>
+</div>
+
+</div>
+
+<div v-click>
+<h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded text-yellow-500 mr-2"> <carbon-in-progress class="inline text-yellow-500"/> IN PROGRESS</span>Design Phase</h3>
+
+<div grid="~ cols-3 gap-4">
+<div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
+  <img class="object-cover w-full h-22" src="imgs/exp_d.png"/>
+  <div class="absolute top-0 left-0 px-6 py-4">
+  </div>
+</div>
+
+<div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
+  <img class="object-cover w-full h-22" src="imgs/exp_e.png"/>
+  <div class="absolute top-0 left-0 px-6 py-4">
+  </div>
+</div>
+
+<div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
+  <img class="object-cover w-full h-22" src="imgs/exp_f.png"/>
+  <div class="absolute top-0 left-0 px-6 py-4">
+  </div>
+</div>
+
+</div>
+</div>
+
+<div v-click>
+<h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded mr-2"><carbon-calendar class="inline"/>PENDING</span>Implementation Phase</h3>
+
+- Focus on journey to production **NOT** live model performance tracking
+- Integrations with MLFlow model-registry
+</div>
+
+<Socials />
+---
+
 # 👋 Community improvements
 
 - Discord
