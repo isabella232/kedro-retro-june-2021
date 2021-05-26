@@ -11,7 +11,7 @@
   </span>
   </p>
 </div>
-<div class="w-90 h-150"><img src="imgs/icon.svg"></div>
+<div class="w-90 h-150"><img src="icon.svg"></div>
 </div>
 
 ---

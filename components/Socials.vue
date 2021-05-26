@@ -2,7 +2,7 @@
     <span abs class="m-3 abs-br  bg-dark-500 rounded-full shadow-lg">
     <a href="https://github.com/quantumblacklabs/kedro" target="_blank" alt="Kedro" 
     class="text-xl icon-btn rounded-full opacity-100 !border-none"> 
-    <img src="imgs/icon.svg" class="w-8 h-8 inline rounded-full bg-gray-100" >
+    <img src="icon.svg" class="w-8 h-8 inline rounded-full bg-gray-100" >
     </a>
     <a href="https://kedro.readthedocs.io/" target="_blank" alt="Documentation"
     class=" text-xl icon-btn opacity-80 rounded-full !border-none !hover:text-white fill-current text-blue-300">

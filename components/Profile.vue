@@ -13,7 +13,7 @@ const props = defineProps({
   }
 })
 const gh = "https://github.com/"+props.github
-const img = "imgs/profiles/"+props.name+".png";
+const img = "profiles/"+props.name+".png";
 </script>
 
 <template>
