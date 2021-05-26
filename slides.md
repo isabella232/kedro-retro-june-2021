@@ -11,7 +11,7 @@
   </span>
   </p>
 </div>
-<div class="w-90 h-150"><img src="icon.svg"></div>
+<div class="w-90 h-150"><Icon /></div>
 </div>
 
 ---
@@ -23,6 +23,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 ---
 
 # Today's agenda
+
 
 We’re excited to show you some of the cool stuff we’re currently cooking up and our vision for the future and Kedro's place within the ML ecosystem.
 
@@ -37,6 +38,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 - 📣 Q&A
 
 <Socials />
+
 
 ---
 layout: iframe-right
@@ -87,6 +89,8 @@ layout: iframe-right
 url: >-
   https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html#using-the-data-catalog-with-the-yaml-api
 ---
+
+
 
 # What actually is Kedro?
 
@@ -146,7 +150,7 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 ---
 layout: iframe-right
-url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference.html?highlight=cli#kedro-s-command-line-interface
+url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference.html
 ---
 
 # What actually is Kedro?

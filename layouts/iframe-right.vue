@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { computed, defineProps } from 'vue'
+import { computed, defineProps } from "vue";
 const props = defineProps({
   class: {
     type: String,
   },
   url: {
-   type: String
-  }
-})
+    type: String,
+  },
+});
 
 </script>
 
@@ -17,14 +17,7 @@ const props = defineProps({
       <slot />
     </div>
     <div>
-      <iframe 
-        id="frame"
-        class="w-full h-full"  
-        :src="props.url"
-        >
-      </iframe>
+      <iframe id="frame" class="w-full h-full bg-dark-500" :src="props.url" onload="closeKedroVizSidebar()"> </iframe>
     </div>
   </div>
-
-
 </template>
