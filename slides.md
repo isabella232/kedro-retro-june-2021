@@ -320,7 +320,7 @@ layout: quote
 
 <ul>
 <li>Focus will be on <span class="text-yellow-500">the journey to production</span> <b>NOT</b> live model monitoring</li>
-<li class="object-contain">Will integrate with <img src="mlflow.png" class="object-contain h-10 inline border rounded m-2 p-2"/> model-registry</li>
+<li class="object-contain">Will integrate with <img src="/mlflow.png" class="object-contain h-10 inline border rounded m-2 p-2"/> model-registry</li>
 </ul>
 </div>
 <Socials />
