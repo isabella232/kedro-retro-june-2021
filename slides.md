@@ -11,7 +11,7 @@
   </span>
   </p>
 </div>
-<div class="w-90 h-150"><Icon /></div>
+<div class="w-90 h-150"><KedroIcon /></div>
 </div>
 
 ---
@@ -183,8 +183,8 @@ url: https://quantumblacklabs.github.io/kedro-viz
 </v-clicks>
 
 <div class="grid grid-cols-3 p-1">
-<div v-click class="border border-yellow-500 rounded-lg py-2 content-between m-3">
-<p class="text-center font-mono">KedroSession</p>
+<div v-click class="border border-dark-400 rounded-lg py-2 content-between m-3">
+<p class="text-center font-mono">KedroSession <carbon-logo-python class="inline" /></p>
 
 <div class="text-sm">
 
@@ -196,8 +196,8 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 </div>
 
-<div v-click class="border border-yellow-500 rounded-lg py-2 content-between m-3">
-<p class="text-center font-mono">settings.py</p>
+<div v-click class="border border-dark-400 rounded-lg py-2 content-between m-3">
+<p class="text-center font-mono">settings.py <file-icons-config-python class="inline" /></p>
 
 <div class="text-sm">
 
@@ -208,8 +208,8 @@ url: https://quantumblacklabs.github.io/kedro-viz
 </div>
 
 </div>
-<div v-click class="border border-yellow-500 rounded-lg py-2 content-between m-3">
-<p class="text-center font-mono text-xl">pyproject.toml</p>
+<div v-click class="border border-dark-400 rounded-lg py-2 content-between m-3">
+<p class="text-center font-mono">pyproject.toml <grommet-icons-document-config class="inline" /></p>
 
 <div class="text-sm">
 
@@ -229,7 +229,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 ```ini
 kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSessionStore'. Assuming empty store
 ```
-<p class="text-xs"><span class="animate-pulse">☝️</span> This annoying message will soon dissapear!</p>
+<p class="text-sm"><span class="animate-pulse">☝️</span> This annoying message will soon dissapear!</p>
 
 </div>
 
@@ -320,7 +320,7 @@ layout: quote
 
 <ul>
 <li>Focus will be on <span class="text-yellow-500">the journey to production</span> <b>NOT</b> live model monitoring</li>
-<li class="object-contain">Integration with <img src="https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" class="object-contain h-10 inline bg-gray-200 rounded p-2"/> model-registry</li>
+<li class="object-contain">Will integrate with <img src="mlflow.png" class="object-contain h-10 inline border rounded m-2 p-2"/> model-registry</li>
 </ul>
 </div>
 <Socials />
@@ -336,25 +336,47 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 - We now have a year's worth of user feedback on where to take this next
 - Ever-growing central `requirements.txt` is a common pain point
 
-<p class="text-primary text-s">Inner-sourced knowledge</p>
+<p class="text-gray-500">Inner-sourced knowledge</p>
 
-<blockquote>We want it to becomes common practice to re-use entire pipelines across different use cases.</blockquote>
+<p class="text-s">We want it to becomes common practice to re-use entire pipelines across different use cases.</p>
 
 
-<div grid="~ cols-3 gap-4 ">
-<div class="h-screen">
-  <KedroIcon class="h-max vertical-center rounded-full bg-dark-500 m-3 "/>
-</div>
-<div class="flex flex-col p-4 items-center my-auto h-screen">
-  <p>Push pipelines</p>
-  <p>Pull source code</p>
-</div>
-<div class="flex flex-col p-4 items-center my-auto h-screen">
-    <simple-icons-jfrog class="m-2 h-8 w-8 text-primary"/>
-    <file-icons-pypi class="m-2  h-8 w-8 text-purple-500"/>
-    <mdi-azure-devops class="m-2  h-8 w-8 text-blue-500"/>
-    <p class="text-xs text-gray-300">Any PyPI like endpoint</p>
-</div>
+<div grid="~ cols-3 ">
+
+  <div class="flex flex-col border rounded m-1  border-dark-400">
+    <div class="m-auto">
+      <KedroIcon class="h-max vertical-center rounded-full bg-dark-500 m-3"/>
+    </div>
+  </div>
+
+  <div class="flex flex-col border rounded m-1 border-dark-400">
+    <div class="m-auto text-center">
+      <carbon-arrow-right class="m-auto text-center text-yellow-500 text-xl animate-pulse"/>
+      <p>Push pipelines</p>
+      <p>Pull source code</p>
+      <carbon-arrow-left class="m-auto text-center text-yellow-500 text-xl animate-pulse"/>
+    </div>
+  </div>
+
+  <div class="flex flex-col border rounded m-1 border-dark-400">
+    <div class="m-auto mt-2">    
+      <span>
+        <simple-icons-jfrog class="m-2 h-6 w-6 text-primary inline"/>
+        <p class="inline text-xs">JFrog Artifactory</p>
+      </span>
+      <br>
+      <span>
+        <file-icons-pypi class="m-2  h-6 w-6 text-purple-500 inline"/>
+        <p class="inline text-xs">PyPI</p>
+      </span>
+      <br>
+      <span>
+        <mdi-azure-devops class="m-2  h-6 w-6 text-blue-500 inline"/>
+        <p class="inline text-xs">Azure Artifacts</p>
+      </span>
+      <p class="text-xs text-gray-300 text-center">Any PyPI like endpoint</p>
+    </div>
+  </div>
 </div>
 
 <Speaker name="Ivan"/>
@@ -368,60 +390,79 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 <Speaker name="Yetu"/>
 <div grid="~ cols-2 gap-4">
   <div>
-    <div v-click class="mb-7">
+    <div v-click class="mb-12">
       <p class="text-gray-500 text-sm">
-        Slide into our DMs on Discord <carbon-logo-discord class="inline text-purple-300" />
+        Slide into our DMs on <p class="inline bg-purple-300 text-black p-1 rounded font-mono text-xs">Discord <carbon-logo-discord class="inline" /></p>
+        <span
+        class="
+          icon-btn
+          rounded
+          m-1
+          text-xs 
+          text-purple-300
+          inline
+        "
+        >
+        <a class="" href="https://discord.com/invite/sNR3R2M6">
+          <code>discord.com/invite/sNR3R2M6</code>
+        </a>
+        </span>
       </p>
       <p>
         Open forum to chat <carbon-chat-bot class="inline" /> with the dev team
         and for the community to assist support each other
         <carbon-help class="inline" />
       </p>
+    <iframe
+      src="https://discord.com/widget?id=778216384475693066&theme=dark"
+      allowtransparency="true"
+      width="400" height="220"
+      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+    ></iframe>
     </div>
-    <div v-click class="mb-7">
+    
+  </div>
+  <v-clicks at=1 >
+    <div class="object-centre">
+    <div v-click class="">
       <p class="text-sm text-gray-500">
-        GitHub Discussions will help codify knowledge
-        <carbon-logo-github class="inline text-purple-300" />
+        <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">GitHub Discussions<carbon-logo-github class="inline m-1" /></p> will help codify knowledge 🙌
       </p>
       <p>
         Threaded conversations <carbon-chat class="inline" />, answers marked by
         the maintainer <carbon-checkmark-filled class="inline" /> and pinned
         announcements <carbon-pin class="inline" />
       </p>
-    </div>
-    <div v-click>
+      <table class="tg">
+        <thead>
+          <tr>
+            <td class="tg-0pky">🙌</td>
+            <td class="tg-0pky"><span style="font-style:normal">Show and tell</span></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0lax">💡</td>
+            <td class="tg-0lax">Ideas</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">🙏</td>
+            <td class="tg-0lax">Q&amp;A</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">🆘</td>
+            <td class="tg-0lax">Help</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>  
+    <div v-click class="mt-10">
       <p class="text-sm text-red-400">
-        Deprecation of <strong>discourse.kedro.community </strong>
-        <fa-brands-discourse class="inline" />
+        😭 Deprecation of <p class="inline bg-red-400 text-black m-1 p-1 rounded font-mono text-xs">discourse.kedro.community <fa-brands-discourse class="inline" /></p>
       </p>
       <p>We hope that the two avenues above will be better to this, StackOverflow
       <fa-brands-stack-overflow class="inline" /> and other platforms</p>
     </div>
-  </div>
-  <v-clicks at=1 >
-    <div class="object-centre">
-    <span
-        class="
-          icon-btn
-          bg-dark-500
-          rounded
-          shadow-lg
-          m-2
-          -ml-0.3
-          text-sm 
-          text-purple-300
-          animate-pulse
-        "
-        ><a href="https://discord.com/invite/sNR3R2M6"
-          ><code>discord.com/invite/sNR3R2M6</code></a
-        ></span
-      >
-    <iframe
-      src="https://discord.com/widget?id=778216384475693066&theme=dark"
-      allowtransparency="true"
-      width="400" height="300"
-      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-    ></iframe>
     </div>
   </v-clicks>
 </div>

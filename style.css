@@ -17,10 +17,12 @@ h2,
 h3,
 p,
 blockquote,
+td,
 li {
   font-family: "Titillium Web", sans-serif;
 }
 
-.icon {
-  fill: #fcbf25;
+
+td {
+  font-size: smaller;
 }
