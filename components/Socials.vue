@@ -34,7 +34,7 @@
           alt="Kedro Retro June 2021"
           class="icon-btn rounded-full opacity-100 !border-none"
         >
-          <Icon class="w-6 h-6 inline rounded-full bg-black" />
+          <KedroIcon class="w-6 h-6 inline rounded-full bg-black" />
         </a>
         <p class="text-0.6em inline">Open Kedro Retro #1 June 2021</p>
     </div>

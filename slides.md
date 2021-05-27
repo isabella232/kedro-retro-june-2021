@@ -327,6 +327,40 @@ layout: quote
 <Speaker name="Merel"/>
 
 ---
+
+# Modular pipeline packaging
+
+Our first iteration of our 'modular pipelines' feature (version 0.16.2). 
+
+- Users can <kbd>package</kbd>, <kbd>share</kbd>, <kbd>reuse</kbd> and <kbd>consume</kbd> pipelines as discrete units across teams. 
+- We now have a year's worth of user feedback on where to take this next
+- Ever-growing central `requirements.txt` is a common pain point
+
+<p class="text-primary text-s">Inner-sourced knowledge</p>
+
+<blockquote>We want it to becomes common practice to re-use entire pipelines across different use cases.</blockquote>
+
+
+<div grid="~ cols-3 gap-4 ">
+<div class="h-screen">
+  <KedroIcon class="h-max vertical-center rounded-full bg-dark-500 m-3 "/>
+</div>
+<div class="flex flex-col p-4 items-center my-auto h-screen">
+  <p>Push pipelines</p>
+  <p>Pull source code</p>
+</div>
+<div class="flex flex-col p-4 items-center my-auto h-screen">
+    <simple-icons-jfrog class="m-2 h-8 w-8 text-primary"/>
+    <file-icons-pypi class="m-2  h-8 w-8 text-purple-500"/>
+    <mdi-azure-devops class="m-2  h-8 w-8 text-blue-500"/>
+    <p class="text-xs text-gray-300">Any PyPI like endpoint</p>
+</div>
+</div>
+
+<Speaker name="Ivan"/>
+<Socials />
+
+
 ---
 
 # Community improvements
