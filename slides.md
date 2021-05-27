@@ -24,6 +24,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 # Today's agenda
 
+<Speaker name="Joel"/>
 
 We’re excited to show you some of the cool stuff we’re currently cooking up and our vision for the future and Kedro's place within the ML ecosystem.
 
@@ -51,170 +52,52 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/
 ---
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters
-- A <kbd>DataCatalog</kbd> for your `DataSets`
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
-
-
-<Socials />
-
+<Overview />
 
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/02_get_started/06_starters.html
 ---
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters ⬅
-- A <kbd>DataCatalog</kbd> for your `DataSets`
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
-
-
-<Socials />
-
-
+<Overview />
+<Pointer class="absolute bottom-63"/>
 ---
 layout: iframe-right
 url: >-
   https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html#using-the-data-catalog-with-the-yaml-api
 ---
+<Overview />
 
-
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters 
-- A <kbd>DataCatalog</kbd> for your `DataSets` ⬅
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
-
-<Socials />
-
-
+<Pointer class="absolute bottom-55"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/01_nodes.html#nodes
 ---
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters 
-- A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions ⬅
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
-
-<Socials />
-
+<Overview />
+<Pointer class="absolute bottom-47"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/02_pipeline_introduction.html#pipelines
 ---
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters 
-- A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects ⬅
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
-
-<Socials />
-
+<Overview />
+<Pointer class="absolute bottom-40"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference.html
 ---
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters 
-- A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions 
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API ⬅
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> 
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
-
-<Socials />
-
+<Overview />
+<Pointer class="absolute bottom-32"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html#deployment-guide
 ---
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters 
-- A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions 
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/> ⬅
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines
-
-<Socials />
-
+<Overview />
+<Pointer class="absolute bottom-24"/>
 ---
 layout: iframe-right
 url: https://quantumblacklabs.github.io/kedro-viz
 ---
-
-# What actually is Kedro?
-
-We like to think of Kedro as a framework for building reproducible, maintainable and modular ML code. <br><br>
-Kedro supports a workflow of rapid prototyping and providing some sensible guardrails out of the box.
-
-- Cookie-cutter project template starters 
-- A <kbd>DataCatalog</kbd> for your `DataSets` 
-- <kbd>Node</kbd> objects wrap <carbon-logo-python class="inline text-yellow-500"/> functions 
-- <kbd>Pipelines</kbd> string together <kbd>Node</kbd> objects
-- Python <carbon-logo-python class="inline text-yellow-500"/> and CLI  <carbon-terminal class="inline text-yellow-500"/> API
-- Built for teams to collaborate  <carbon-events class="inline text-yellow-500"/>
-- Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines ⬅
-
-<Socials />
-
+<Overview />
+<Pointer class="absolute bottom-16"/>
 ---
 
 # Meet the team
@@ -258,7 +141,7 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 
 ## What have been cooking recently 👩‍🍳?
 
- 
+ <Speaker name="Joel"/>
 
 <h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd> and <kbd>0.17.3</kbd></h3>
 
@@ -287,6 +170,8 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 ---
 
 # No context Kedro ?
+
+<Speaker name="Lorena"/>
 
 <v-clicks>
 
@@ -344,7 +229,7 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 ```ini
 kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSessionStore'. Assuming empty store
 ```
-<p class="text-xs">☝️ This annoying message will soon dissapear!</p>
+<p class="text-xs"><span class="animate-pulse">☝️</span> This annoying message will soon dissapear!</p>
 
 </div>
 
@@ -355,6 +240,7 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 ---
 
 # 💅 Kedro Viz: Not just a pretty face
+<Speaker name="Susanna"/>
 
 - FastAPI rewrite
 - Plotly
@@ -363,38 +249,40 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 <Socials />
 
 ---
-
+layout: quote
+---
 # 🔮 A look to the future 
-
-- Experiment tracking
+  
 - Packaging
 - Config
 - GE?
 
+<Speaker name="Joel"/>
 <Socials />
 
 ---
 
-# 🧪 Experiment tracking is coming to Kedro!
+
+<h1>🧪 Experiment tracking is coming to Kedro!</h1>
 
 <div v-click>
 <h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded text-green-600 mr-2"><carbon-checkmark-filled class="inline text-green-600 mr-1"/>IN PROGRESS</span>User research phase</h3>
 
 <div grid="~ cols-3 gap-4">
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
-  <img class="object-cover w-full h-22" src="imgs/exp_a.png"/>
+  <img class="object-cover w-full h-22" src="/exp_a.png"/>
   <div class="absolute top-0 left-0 px-6 py-4">
   </div>
 </div>
 
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
-  <img class="object-cover w-full h-22" src="imgs/exp_b.png"/>
+  <img class="object-cover w-full h-22" src="/exp_b.png"/>
   <div class="absolute top-0 left-0 px-6 py-4">
   </div>
 </div>
 
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
-  <img class="object-cover w-full h-22" src="imgs/exp_c.png"/>
+  <img class="object-cover w-full h-22" src="/exp_c.png"/>
   <div class="absolute top-0 left-0 px- py-4">
   </div>
 </div>
@@ -403,23 +291,23 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 </div>
 
 <div v-click>
-<h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded text-yellow-500 mr-2"> <carbon-in-progress class="inline text-yellow-500"/> IN PROGRESS</span>Design Phase</h3>
+<h3 class='p-2 m-3 opacity-100 animate-pulse'><span class="p-1 bg-dark-500 rounded text-yellow-500 mr-2"> <carbon-progress-bar-round class="inline text-yellow-500"/> IN PROGRESS</span>Design Phase</h3>
 
 <div grid="~ cols-3 gap-4">
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
-  <img class="object-cover w-full h-22" src="imgs/exp_d.png"/>
+  <img class="object-cover w-full h-22" src="/exp_d.png"/>
   <div class="absolute top-0 left-0 px-6 py-4">
   </div>
 </div>
 
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
-  <img class="object-cover w-full h-22" src="imgs/exp_e.png"/>
+  <img class="object-cover w-full h-22" src="/exp_e.png"/>
   <div class="absolute top-0 left-0 px-6 py-4">
   </div>
 </div>
 
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
-  <img class="object-cover w-full h-22" src="imgs/exp_f.png"/>
+  <img class="object-cover w-full h-22" src="/exp_f.png"/>
   <div class="absolute top-0 left-0 px-6 py-4">
   </div>
 </div>
@@ -430,18 +318,79 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 <div v-click>
 <h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded mr-2"><carbon-calendar class="inline"/>PENDING</span>Implementation Phase</h3>
 
-- Focus on journey to production **NOT** live model performance tracking
-- Integrations with MLFlow model-registry
+<ul>
+<li>Focus will be on <span class="text-yellow-500">the journey to production</span> <b>NOT</b> live model monitoring</li>
+<li class="object-contain">Integration with <img src="https://mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" class="object-contain h-10 inline bg-gray-200 rounded p-2"/> model-registry</li>
+</ul>
 </div>
-
 <Socials />
+<Speaker name="Merel"/>
+
+---
 ---
 
-# 👋 Community improvements
+# Community improvements
 
-- Discord
-- GitHub Discussions
-- Discourse
+<Speaker name="Yetu"/>
+<div grid="~ cols-2 gap-4">
+  <div>
+    <div v-click class="mb-7">
+      <p class="text-gray-500 text-sm">
+        Slide into our DMs on Discord <carbon-logo-discord class="inline text-purple-300" />
+      </p>
+      <p>
+        Open forum to chat <carbon-chat-bot class="inline" /> with the dev team
+        and for the community to assist support each other
+        <carbon-help class="inline" />
+      </p>
+    </div>
+    <div v-click class="mb-7">
+      <p class="text-sm text-gray-500">
+        GitHub Discussions will help codify knowledge
+        <carbon-logo-github class="inline text-purple-300" />
+      </p>
+      <p>
+        Threaded conversations <carbon-chat class="inline" />, answers marked by
+        the maintainer <carbon-checkmark-filled class="inline" /> and pinned
+        announcements <carbon-pin class="inline" />
+      </p>
+    </div>
+    <div v-click>
+      <p class="text-sm text-red-400">
+        Deprecation of <strong>discourse.kedro.community </strong>
+        <fa-brands-discourse class="inline" />
+      </p>
+      <p>We hope that the two avenues above will be better to this, StackOverflow
+      <fa-brands-stack-overflow class="inline" /> and other platforms</p>
+    </div>
+  </div>
+  <v-clicks at=1 >
+    <div class="object-centre">
+    <span
+        class="
+          icon-btn
+          bg-dark-500
+          rounded
+          shadow-lg
+          m-2
+          -ml-0.3
+          text-sm 
+          text-purple-300
+          animate-pulse
+        "
+        ><a href="https://discord.com/invite/sNR3R2M6"
+          ><code>discord.com/invite/sNR3R2M6</code></a
+        ></span
+      >
+    <iframe
+      src="https://discord.com/widget?id=778216384475693066&theme=dark"
+      allowtransparency="true"
+      width="400" height="300"
+      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+    ></iframe>
+    </div>
+  </v-clicks>
+</div>
 
 <Socials />
 
