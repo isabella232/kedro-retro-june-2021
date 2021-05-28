@@ -330,34 +330,35 @@ layout: quote
 
 # Modular pipeline packaging
 
+<v-click>
+
 Our first iteration of our 'modular pipelines' feature (version 0.16.2). 
 
 - Users can <kbd>package</kbd>, <kbd>share</kbd>, <kbd>reuse</kbd> and <kbd>consume</kbd> pipelines as discrete units across teams. 
 - We now have a year's worth of user feedback on where to take this next
 - Ever-growing central `requirements.txt` is a common pain point
 
+</v-click>
+
+<v-click>
 <p class="text-gray-500">Inner-sourced knowledge</p>
 
+
 <p class="text-s">We want it to becomes common practice to re-use entire pipelines across different use cases.</p>
-
-
 <div grid="~ cols-3 ">
-
   <div class="flex flex-col border rounded m-1  border-dark-400">
     <div class="m-auto">
       <KedroIcon class="h-max vertical-center rounded-full bg-dark-500 m-3"/>
     </div>
   </div>
-
   <div class="flex flex-col border rounded m-1 border-dark-400">
     <div class="m-auto text-center">
-      <carbon-arrow-right class="m-auto text-center text-yellow-500 text-xl animate-pulse"/>
+      <Arrow x1=600 y1=470 x2=380 y2=470 class="text-yellow-500 text-xl animate-pulse"/>
       <p>Push pipelines</p>
       <p>Pull source code</p>
-      <carbon-arrow-left class="m-auto text-center text-yellow-500 text-xl animate-pulse"/>
+      <Arrow x1=380 y1=360 x2=600 y2=360 class="text-yellow-500 text-xl animate-pulse"/>
     </div>
   </div>
-
   <div class="flex flex-col border rounded m-1 border-dark-400">
     <div class="m-auto mt-2">    
       <span>
@@ -378,6 +379,7 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
     </div>
   </div>
 </div>
+</v-click>
 
 <Speaker name="Ivan"/>
 <Socials />
@@ -473,4 +475,7 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 layout: quote
 ---
 # 📣 Open Q&A Session
+
+
+
 <Socials />
