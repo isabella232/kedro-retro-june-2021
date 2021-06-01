@@ -24,8 +24,6 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 # Today's agenda
 
-<Speaker name="Joel"/>
-
 We’re excited to show you some of the cool stuff we’re currently cooking up and our vision for the future and Kedro's place within the ML ecosystem.
 
 - 🤔 What actually is Kedro?
@@ -34,15 +32,6 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 - 🗑 No context Kedro 
 - 💅 Kedro Viz: Not just a pretty face
 - 🔮 A look to the future 
-
-<div class='text-xs ml-6'>
-
-- Experiment tracking 🧪 
-- Packaging 🎁
-- Configuration ⚙️
-
-</div>
-
 - 👋 Community improvements 
 - 📣 Q&A
 
@@ -53,44 +42,49 @@ layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/
 ---
 <Overview />
-
+<Socials />
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/02_get_started/06_starters.html
 ---
 <Overview />
 <Pointer class="absolute bottom-63"/>
+<Speaker name="Joel"/>
 ---
 layout: iframe-right
 url: >-
   https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html#using-the-data-catalog-with-the-yaml-api
 ---
 <Overview />
-
+<Speaker name="Joel"/>
 <Pointer class="absolute bottom-55"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/01_nodes.html#nodes
 ---
 <Overview />
+<Speaker name="Joel"/>
 <Pointer class="absolute bottom-47"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/02_pipeline_introduction.html#pipelines
 ---
 <Overview />
+<Speaker name="Joel"/>
 <Pointer class="absolute bottom-40"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference.html
 ---
 <Overview />
+<Speaker name="Joel"/>
 <Pointer class="absolute bottom-32"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html#deployment-guide
 ---
 <Overview />
+<Speaker name="Joel"/>
 <Pointer class="absolute bottom-24"/>
 ---
 layout: iframe-right
@@ -177,7 +171,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 - <carbon-clean class="inline text-yellow-500"/> In the beginning there was no context
 - <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
-- <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> sessions)
+- <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> / <vscode-icons-file-type-jupyter class="inline"/> sessions)
 - 😭 It's now time to start divorce proceedings and move to a new approach...
 
 </v-clicks>
@@ -242,9 +236,90 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 # 💅 Kedro Viz: Not just a pretty face
 <Speaker name="Susanna"/>
 
-- FastAPI rewrite
-- Plotly
-- Modular pipelines
+<div grid="~ cols-3">
+  <v-clicks at="1">
+    <div class="p-3 text-purple-400">
+      <mdi-pipe class="text-4em m-auto align-text" />
+    </div>
+  </v-clicks>
+  <v-clicks at="2"
+    ><div class="p-3 text-primary m-auto">
+      <simple-icons-fastapi class="text-4em m-auto" /></div
+  ></v-clicks>
+  <v-clicks at="3"
+    ><div class="p-3 text-blue-500">
+      <simple-icons-plotly class="text-4em m-auto" /></div
+  ></v-clicks>
+</div>
+
+<div grid="~ cols-3">
+  <v-clicks at="1">
+    <div class="text-purple-400">
+      <p class="text-l m-auto text-center">
+        Modular pipelines become <br />
+        1<sup>st</sup> class citizens
+      </p>
+    </div>
+  </v-clicks>
+  <v-clicks at="2"
+    ><div class="text-primary m-auto">
+      <p class="text-l m-auto text-center">FastAPI rewrite <br> of backend</p>
+    </div></v-clicks
+  >
+  <v-clicks at="3"
+    ><div class="text-blue-500">
+      <p class="text-l m-auto text-center">Native Plotly integration <br>within the DAG</p>
+    </div></v-clicks
+  >
+</div>
+
+<div grid="~ cols-3">
+  <v-clicks at="1">
+    <div
+      class="
+        relative
+        max-w-60
+        overflow-hidden
+        rounded-lg
+        text-center
+        m-auto
+        ring ring-purple-400 ring-offset-5 ring-offset-dark-900
+      "
+    >
+      <img class="object-cover w-full h-50 m-auto" src="/modular.png" />
+    </div>
+  </v-clicks>
+  <v-clicks at="2"
+    ><div
+      class="
+        relative
+        max-w-60
+        overflow-hidden
+        rounded-lg
+        text-center
+        m-auto
+        ring ring-primary ring-offset-5 ring-offset-dark-900
+      "
+    >
+      <img class="object-cover w-80 h-50 m-auto" src="/fastapi.png" /></div
+  ></v-clicks>
+  <v-clicks at="3"
+    ><div
+      class="
+        relative
+        max-w-60
+        overflow-hidden
+        rounded-lg
+        text-center
+        m-auto
+        ring ring-blue-500 ring-offset-5 ring-offset-dark-900
+      "
+    >
+      <img class="object-cover w-full h-50 m-auto" src="/plotly.gif" /></div
+  ></v-clicks>
+</div>
+
+
 
 <Socials />
 
@@ -252,17 +327,16 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 layout: quote
 ---
 # 🔮 A look to the future 
-  
-- Packaging
-- Config
-- GE?
+
+- Experiment tracking
+- Packaging improvements
+- Configuration overhaul
+- Diffing with Dolt
 
 <Speaker name="Joel"/>
 <Socials />
 
 ---
-
-
 <h1>🧪 Experiment tracking is coming to Kedro!</h1>
 
 <div v-click>
@@ -367,7 +441,7 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
       </span>
       <br>
       <span>
-        <file-icons-pypi class="m-2  h-6 w-6 text-purple-500 inline"/>
+        <file-icons-pypi class="m-2  h-6 w-6 text-indigo-400 inline"/>
         <p class="inline text-xs">PyPI</p>
       </span>
       <br>
@@ -390,84 +464,97 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 # Community improvements
 
 <Speaker name="Yetu"/>
+
+
 <div grid="~ cols-2 gap-4">
-  <div>
-    <div v-click class="mb-12">
-      <p class="text-gray-500 text-sm">
-        Slide into our DMs on <p class="inline bg-purple-300 text-black p-1 rounded font-mono text-xs">Discord <carbon-logo-discord class="inline" /></p>
-        <span
-        class="
-          icon-btn
-          rounded
-          m-1
-          text-xs 
-          text-purple-300
-          inline
-        "
-        >
-        <a class="" href="https://discord.com/invite/sNR3R2M6">
-          <code>discord.com/invite/sNR3R2M6</code>
-        </a>
-        </span>
-      </p>
-      <p>
-        Open forum to chat <carbon-chat-bot class="inline" /> with the dev team
-        and for the community to assist support each other
-        <carbon-help class="inline" />
-      </p>
-    <iframe
-      src="https://discord.com/widget?id=778216384475693066&theme=dark"
-      allowtransparency="true"
-      width="400" height="220"
-      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-    ></iframe>
+    <div>
+        <div v-click class="mb-12">
+        <div grid="~ cols-2">
+        <div><p class="text-gray-500 text-sm">
+            Slide into our DMs on 
+        <p class="inline bg-indigo-400 text-black p-1 rounded font-mono text-xs">
+            Discord 
+            <carbon-logo-discord class="inline" />
+        </p>
+        </p>
+        <p>
+            Open forum to chat 
+            <carbon-chat-bot class="inline" />
+            with the dev team
+            and for the community to assist support each other
+            <carbon-help class="inline" />
+        </p></div>
+        <div class="ml-9"><img src="/discord_qr.svg" class="h-35 m-3 rounded"/></div>
+        </div>
+        <iframe
+            src="https://discord.com/widget?id=778216384475693066&theme=dark"
+            allowtransparency="true"
+            width="400" height="220"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+            ></iframe>
+        </div>
     </div>
-    
-  </div>
-  <v-clicks at=1 >
-    <div class="object-centre">
-    <div v-click class="">
-      <p class="text-sm text-gray-500">
-        <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">GitHub Discussions<carbon-logo-github class="inline m-1" /></p> will help codify knowledge 🙌
-      </p>
-      <p>
-        Threaded conversations <carbon-chat class="inline" />, answers marked by
-        the maintainer <carbon-checkmark-filled class="inline" /> and pinned
-        announcements <carbon-pin class="inline" />
-      </p>
-      <table class="tg">
-        <thead>
-          <tr>
-            <td class="tg-0pky">🙌</td>
-            <td class="tg-0pky"><span style="font-style:normal">Show and tell</span></td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="tg-0lax">💡</td>
-            <td class="tg-0lax">Ideas</td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">🙏</td>
-            <td class="tg-0lax">Q&amp;A</td>
-          </tr>
-          <tr>
-            <td class="tg-0lax">🆘</td>
-            <td class="tg-0lax">Help</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>  
-    <div v-click class="mt-10">
-      <p class="text-sm text-red-400">
-        😭 Deprecation of <p class="inline bg-red-400 text-black m-1 p-1 rounded font-mono text-xs">discourse.kedro.community <fa-brands-discourse class="inline" /></p>
-      </p>
-      <p>We hope that the two avenues above will be better to this, StackOverflow
-      <fa-brands-stack-overflow class="inline" /> and other platforms</p>
-    </div>
-    </div>
-  </v-clicks>
+    <v-clicks at=1 >
+        <div class="object-centre">
+        <div v-click class="">
+            <p class="text-sm text-gray-500">
+            <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
+                GitHub Discussions
+                <carbon-logo-github class="inline m-1" />
+            </p>
+            will help codify knowledge 🙌
+            </p>
+            <p>
+                Threaded conversations 
+                <twemoji-thread class="inline" />
+                , answers marked by
+                the maintainer 
+                <carbon-checkmark-filled  class="inline text-primary" />
+                and pinned
+                announcements 
+                <carbon-pin-filled class="inline text-pink-500" />
+            </p>
+            <table class="tg">
+                <thead>
+                    <tr>
+                    <td class="tg-0pky">🙌</td>
+                    <td class="tg-0pky"><span style="font-style:normal">Show and tell</span></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td class="tg-0lax">💡</td>
+                    <td class="tg-0lax">Ideas</td>
+                    </tr>
+                    <tr>
+                    <td class="tg-0lax">🙏</td>
+                    <td class="tg-0lax">Q&amp;A</td>
+                    </tr>
+                    <tr>
+                    <td class="tg-0lax">🆘</td>
+                    <td class="tg-0lax">Help</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div v-click class="mt-10">
+            <p class="text-sm text-red-400">
+                Deprecation 😭 of 
+            <p class="inline bg-red-400 text-black m-1 p-1 rounded font-mono text-xs">
+                discourse.kedro.community 
+                <fa-brands-discourse class="inline" />
+            </p>
+            </p>
+            <p>
+                We hope that the two avenues above will be better to this, StackOverflow
+                <fa-brands-stack-overflow class="inline" />
+                and other platforms
+            </p>
+        </div>
+        </div>
+    </v-clicks>
 </div>
+
 
 <Socials />
 

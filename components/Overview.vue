@@ -15,6 +15,5 @@ Kedro supports a workflow of rapid prototyping and providing some sensible guard
 <li>Built for teams to collaborate <carbon-events class="inline text-yellow-500"/></li>
 <li>Kedro Viz <carbon-data-vis-3 class="inline text-yellow-500"/> visualising pipelines</li>
 </ul>
-<Socials />
 <Speaker name="Joel"/>
 </template>
