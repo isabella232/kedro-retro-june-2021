@@ -237,88 +237,49 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 <Speaker name="Susanna"/>
 
 <div grid="~ cols-3">
-  <v-clicks at="1">
     <div class="p-3 text-purple-400">
-      <mdi-pipe class="text-4em m-auto align-text" />
+        <mdi-pipe class="text-4em m-auto align-text" />
     </div>
-  </v-clicks>
-  <v-clicks at="2"
-    ><div class="p-3 text-primary m-auto">
-      <simple-icons-fastapi class="text-4em m-auto" /></div
-  ></v-clicks>
-  <v-clicks at="3"
-    ><div class="p-3 text-blue-500">
-      <simple-icons-plotly class="text-4em m-auto" /></div
-  ></v-clicks>
+    <div class="p-3 text-primary m-auto">
+        <simple-icons-fastapi class="text-4em m-auto" />
+    </div>
+    <div class="p-3 text-blue-500">
+        <simple-icons-plotly class="text-4em m-auto" />
+    </div>
 </div>
 
 <div grid="~ cols-3">
-  <v-clicks at="1">
     <div class="text-purple-400">
-      <p class="text-l m-auto text-center">
-        Modular pipelines become <br />
-        1<sup>st</sup> class citizens
-      </p>
+        <p class="text-l m-auto text-center">
+            Modular pipelines become <br />
+            1<sup>st</sup> class citizens
+        </p>
     </div>
-  </v-clicks>
-  <v-clicks at="2"
-    ><div class="text-primary m-auto">
-      <p class="text-l m-auto text-center">FastAPI rewrite <br> of backend</p>
-    </div></v-clicks
-  >
-  <v-clicks at="3"
-    ><div class="text-blue-500">
-      <p class="text-l m-auto text-center">Native Plotly integration <br>within the DAG</p>
-    </div></v-clicks
-  >
+    <div class="text-primary m-auto">
+        <p class="text-l m-auto text-center">
+            FastAPI rewrite <br />
+            of backend
+        </p>
+    </div>
+    <div class="text-blue-500">
+        <p class="text-l m-auto text-center">
+            Native Plotly integration <br />
+            within the DAG
+        </p>
+    </div>
 </div>
 
 <div grid="~ cols-3">
-  <v-clicks at="1">
-    <div
-      class="
-        relative
-        max-w-60
-        overflow-hidden
-        rounded-lg
-        text-center
-        m-auto
-        ring ring-purple-400 ring-offset-5 ring-offset-dark-900
-      "
-    >
-      <img class="object-cover w-full h-50 m-auto" src="/modular.png" />
+    <div class="relative max-w-60 overflow-hidden rounded-lg text-center m-auto ring ring-purple-400 ring-offset-5 ring-offset-dark-900">
+        <img class="object-cover w-full h-50 m-auto" src="/modular.png" />
     </div>
-  </v-clicks>
-  <v-clicks at="2"
-    ><div
-      class="
-        relative
-        max-w-60
-        overflow-hidden
-        rounded-lg
-        text-center
-        m-auto
-        ring ring-primary ring-offset-5 ring-offset-dark-900
-      "
-    >
-      <img class="object-cover w-80 h-50 m-auto" src="/fastapi.png" /></div
-  ></v-clicks>
-  <v-clicks at="3"
-    ><div
-      class="
-        relative
-        max-w-60
-        overflow-hidden
-        rounded-lg
-        text-center
-        m-auto
-        ring ring-blue-500 ring-offset-5 ring-offset-dark-900
-      "
-    >
-      <img class="object-cover w-full h-50 m-auto" src="/plotly.gif" /></div
-  ></v-clicks>
+    <div class="relative max-w-60 overflow-hidden rounded-lg text-center m-auto ring ring-primary ring-offset-5 ring-offset-dark-900">
+        <img class="object-cover w-80 h-50 m-auto" src="/fastapi.png" />
+    </div>
+    <div class="relative max-w-60 overflow-hidden rounded-lg text-center m-auto ring ring-blue-500 ring-offset-5 ring-offset-dark-900">
+        <img class="object-cover w-full h-50 m-auto" src="/plotly.gif" />
+    </div>
 </div>
-
 
 
 <Socials />
