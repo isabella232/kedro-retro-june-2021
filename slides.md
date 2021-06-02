@@ -1,17 +1,21 @@
-# Open Kedro Retro #1
+---
+layout: image
+image: background.png
+---
+
+<p class="text-2em text-yellow-500"><span class="bg-dark-900 m-2 rounded bg-opacity-60"> Open Kedro Retro #1 </span></p>
+
 ### June 2021
-
-
 
 <div grid="~ cols-2 gap-4">
 <div class="pt-12">
-<p>
-  <span @click="$slidev.nav.next" class="px-2 p-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+<p class="">
+  <span @click="$slidev.nav.next" class="p-2 rounded cursor-pointer bg-dark-900 m-2 bg-opacity-60" hover="bg-white bg-opacity-10">
     Press <kbd>space</kbd> for next page <carbon:arrow-right class="inline"/>
   </span>
   </p>
 </div>
-<div class="w-90 h-150"><KedroIcon /></div>
+<div class="w-130"><KedroIcon /></div>
 </div>
 
 ---
@@ -50,6 +54,7 @@ url: https://kedro.readthedocs.io/en/stable/02_get_started/06_starters.html
 <Overview />
 <Pointer class="absolute bottom-63"/>
 <Speaker name="Joel"/>
+<Socials />
 ---
 layout: iframe-right
 url: >-
@@ -58,6 +63,7 @@ url: >-
 <Overview />
 <Speaker name="Joel"/>
 <Pointer class="absolute bottom-55"/>
+<Socials />
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/01_nodes.html#nodes
@@ -65,6 +71,7 @@ url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/01_nodes.html
 <Overview />
 <Speaker name="Joel"/>
 <Pointer class="absolute bottom-47"/>
+<Socials />
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/02_pipeline_introduction.html#pipelines
@@ -72,6 +79,7 @@ url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/02_pipeline_i
 <Overview />
 <Speaker name="Joel"/>
 <Pointer class="absolute bottom-40"/>
+<Socials />
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference.html
@@ -79,6 +87,7 @@ url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference
 <Overview />
 <Speaker name="Joel"/>
 <Pointer class="absolute bottom-32"/>
+<Socials />
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html#deployment-guide
@@ -86,12 +95,14 @@ url: https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.ht
 <Overview />
 <Speaker name="Joel"/>
 <Pointer class="absolute bottom-24"/>
+<Socials />
 ---
 layout: iframe-right
 url: https://quantumblacklabs.github.io/kedro-viz
 ---
 <Overview />
 <Pointer class="absolute bottom-16"/>
+<Socials />
 ---
 
 # Meet the team
@@ -140,25 +151,33 @@ url: https://quantumblacklabs.github.io/kedro-viz
 <h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd> and <kbd>0.17.3</kbd></h3>
 
 
-<div v-click>
 
-<p class="text-m"> Breaking changes</p>
+
+<v-click><p class="text-m"> Breaking changes</p></v-click>
+
+<v-clicks>
+
 
 - 📼 `KedroSession` is the new way we manage the lifecycle of a run.
 - 🐍 `settings.py` and `pyproject.toml`  replace `.kedro.yml` for project configuration
 - 📌 `__main__.py` is the new project entry-point
-</div>
 
-<div v-click>
+</v-clicks>
 
-<p class="text-m"> Other highlights</p>
+
+
+<v-click><p class="text-m"> Other highlights</p></v-click>
+
+<v-clicks>
 
 - 🧘‍♂️ Lazy loading of registered `Pipeline` objects
 - 🆕 `Jinja2` templating added to `TemplatedconfigLoader`
 - 🏃‍♀️ Complete rewrite of the `Kedro Viz` back-end using `FastAPI`
 - 🎁 Improved packaging
 - 🙌 Custom starters, new hooks, customisable CLI, bug fixes 🐛 and more...
-</div>
+
+</v-clicks>
+
 
 <Socials />
 ---
@@ -176,8 +195,27 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 </v-clicks>
 
+<Socials />
+
+---
+
+# No context Kedro ?
+
+<Speaker name="Lorena"/>
+
+<div class="opacity-10">
+
+- <carbon-clean class="inline text-yellow-500"/> In the beginning there was no context
+- <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
+- <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> / <vscode-icons-file-type-jupyter class="inline"/> sessions)
+- 😭 It's now time to start divorce proceedings and move to a new approach...
+
+</div>
+
+<div v-click class="abs abs-tl ml-26 mt-26"><Frame src="/delorean.gif"/></div>
+
 <div class="grid grid-cols-3 p-1">
-<div v-click class="border border-dark-400 rounded-lg py-2 content-between m-3">
+<div class="border border-dark-400 rounded-lg py-2 content-between m-3">
 <p class="text-center font-mono">KedroSession <carbon-logo-python class="inline" /></p>
 
 <div class="text-sm">
@@ -200,8 +238,9 @@ url: https://quantumblacklabs.github.io/kedro-viz
 - <ri-caravan-fill class="inline text-yellow-500"/> `DataCatalog` is moving too...
 
 </div>
-
 </div>
+<div v-click class="abs abs-tl ml-98 mt-26"><Frame src="/recipe.gif"/></div>
+
 <div v-click class="border border-dark-400 rounded-lg py-2 content-between m-3">
 <p class="text-center font-mono">pyproject.toml <grommet-icons-document-config class="inline" /></p>
 
@@ -212,11 +251,12 @@ url: https://quantumblacklabs.github.io/kedro-viz
 - <el-home-alt class="inline text-yellow-500"/> for packaging spec in the future
 </div>
 
-
-</div>
 </div>
 
-<v-clicks after="5">
+<div v-click class="abs abs-tl ml-170 mt-26"><Frame src="/packaging.gif"/></div>
+</div>
+
+<v-click>
 
 <div>
 
@@ -227,7 +267,7 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 
 </div>
 
-</v-clicks>
+</v-click>
 
 <Socials />
 
@@ -237,50 +277,32 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 <Speaker name="Susanna"/>
 
 <div grid="~ cols-3">
-    <div class="p-3 text-purple-400">
-        <mdi-pipe class="text-4em m-auto align-text" />
-    </div>
-    <div class="p-3 text-primary m-auto">
-        <simple-icons-fastapi class="text-4em m-auto" />
-    </div>
-    <div class="p-3 text-blue-500">
-        <simple-icons-plotly class="text-4em m-auto" />
-    </div>
-</div>
 
-<div grid="~ cols-3">
-    <div class="text-purple-400">
-        <p class="text-l m-auto text-center">
-            Modular pipelines become <br />
-            1<sup>st</sup> class citizens
-        </p>
-    </div>
-    <div class="text-primary m-auto">
-        <p class="text-l m-auto text-center">
-            FastAPI rewrite <br />
-            of backend
-        </p>
-    </div>
-    <div class="text-blue-500">
-        <p class="text-l m-auto text-center">
-            Native Plotly integration <br />
-            within the DAG
-        </p>
-    </div>
+  <div v-click class="p-3 text-purple-400">
+    <mdi-pipe class="text-3em m-auto align-text" />
+    <p class="text-base m-auto text-center">
+      Modular pipelines become<br>
+      1<sup>st</sup> class citizens
+    </p>
+    <VizRing src="/modular.png" color="ring-purple-500" />
+  </div>
+  <div v-click class="p-3 text-primary m-auto">
+    <simple-icons-fastapi class="text-3em m-auto" />
+    <p class="text-base m-auto text-center">
+      FastAPI rewrite<br>
+      of backend
+    </p>
+    <VizRing src="/fastapi.png" color="ring-primary" />
+  </div>
+  <div v-click class="p-3 text-blue-500">
+    <simple-icons-plotly class="text-3em m-auto" />
+    <p class="text-base m-auto text-center">
+      Native Plotly integration<br>
+      within the DAG
+    </p>
+    <VizRing src="/plotly.gif" color="ring-blue-500" />
+  </div>
 </div>
-
-<div grid="~ cols-3">
-    <div class="relative max-w-60 overflow-hidden rounded-lg text-center m-auto ring ring-purple-400 ring-offset-5 ring-offset-dark-900">
-        <img class="object-cover w-full h-50 m-auto" src="/modular.png" />
-    </div>
-    <div class="relative max-w-60 overflow-hidden rounded-lg text-center m-auto ring ring-primary ring-offset-5 ring-offset-dark-900">
-        <img class="object-cover w-80 h-50 m-auto" src="/fastapi.png" />
-    </div>
-    <div class="relative max-w-60 overflow-hidden rounded-lg text-center m-auto ring ring-blue-500 ring-offset-5 ring-offset-dark-900">
-        <img class="object-cover w-full h-50 m-auto" src="/plotly.gif" />
-    </div>
-</div>
-
 
 <Socials />
 
@@ -289,15 +311,20 @@ layout: quote
 ---
 # 🔮 A look to the future 
 
-- Experiment tracking
-- Packaging improvements
-- Configuration overhaul
-- Diffing with Dolt
+<v-clicks>
+
+- 👩‍🔬 Experiment tracking (via the `KedroSession`)
+- 🎁 Packaging modular pipelines
+- ⏱ Diffing with Dolt
+- ⚙️ Configuration optimisation
+
+</v-clicks>
 
 <Speaker name="Joel"/>
 <Socials />
 
 ---
+
 <h1>🧪 Experiment tracking is coming to Kedro!</h1>
 
 <div v-click>
@@ -438,7 +465,7 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
             <carbon-logo-discord class="inline" />
         </p>
         </p>
-        <p>
+        <p class="text-sm">
             Open forum to chat 
             <carbon-chat-bot class="inline" />
             with the dev team
@@ -465,12 +492,12 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
             </p>
             will help codify knowledge 🙌
             </p>
-            <p>
+            <p class="text-sm">
                 Threaded conversations 
                 <twemoji-thread class="inline" />
                 , answers marked by
                 the maintainer 
-                <carbon-checkmark-filled  class="inline text-primary" />
+                <carbon-checkmark-filled  class="inline text-primary" /> <br>
                 and pinned
                 announcements 
                 <carbon-pin-filled class="inline text-pink-500" />
@@ -506,7 +533,7 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
                 <fa-brands-discourse class="inline" />
             </p>
             </p>
-            <p>
+            <p class="text-sm">
                 We hope that the two avenues above will be better to this, StackOverflow
                 <fa-brands-stack-overflow class="inline" />
                 and other platforms
