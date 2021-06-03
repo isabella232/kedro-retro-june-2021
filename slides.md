@@ -155,7 +155,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 <v-click><p class="text-m"> Breaking changes</p></v-click>
 
-<v-clicks>
+<v-clicks class='text-sm'>
 
 
 - 📼 `KedroSession` is the new way we manage the lifecycle of a run.
@@ -168,7 +168,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 <v-click><p class="text-m"> Other highlights</p></v-click>
 
-<v-clicks>
+<v-clicks class='text-sm'>
 
 - 🧘‍♂️ Lazy loading of registered `Pipeline` objects
 - 🆕 `Jinja2` templating added to `TemplatedconfigLoader`
@@ -203,7 +203,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 <Speaker name="Lorena"/>
 
-<div class="opacity-10">
+<div class="opacity-4">
 
 - <carbon-clean class="inline text-yellow-500"/> In the beginning there was no context
 - <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
@@ -212,7 +212,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 </div>
 
-<div v-click class="abs abs-tl ml-26 mt-26"><Frame src="/delorean.gif"/></div>
+<div v-click class="abs abs-tl ml-36 mt-35"><Frame src="/delorean.gif"/></div>
 
 <div class="grid grid-cols-3 p-1">
 <div class="border border-dark-400 rounded-lg py-2 content-between m-3">
@@ -239,7 +239,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 </div>
 </div>
-<div v-click class="abs abs-tl ml-98 mt-26"><Frame src="/recipe.gif"/></div>
+<div v-click class="abs abs-tl ml-109 mt-35"><Frame src="/recipe.gif"/></div>
 
 <div v-click class="border border-dark-400 rounded-lg py-2 content-between m-3">
 <p class="text-center font-mono">pyproject.toml <grommet-icons-document-config class="inline" /></p>
@@ -253,7 +253,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 </div>
 
-<div v-click class="abs abs-tl ml-170 mt-26"><Frame src="/packaging.gif"/></div>
+<div v-click class="abs abs-tl ml-180 mt-35"><Frame src="/packaging.gif"/></div>
 </div>
 
 <v-click>
@@ -300,7 +300,7 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
       Native Plotly integration<br>
       within the DAG
     </p>
-    <VizRing src="/plotly.gif" color="ring-blue-500" />
+    <VizRing src="/plotly.png" color="ring-blue-500" />
   </div>
 </div>
 
@@ -325,7 +325,7 @@ layout: quote
 
 ---
 
-<h1>🧪 Experiment tracking is coming to Kedro!</h1>
+<h1>🧪 Native experiment tracking is coming to Kedro!</h1>
 
 <div v-click>
 <h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded text-green-600 mr-2"><carbon-checkmark-filled class="inline text-green-600 mr-1"/>IN PROGRESS</span>User research phase</h3>
@@ -380,9 +380,9 @@ layout: quote
 <div v-click>
 <h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded mr-2"><carbon-calendar class="inline"/>PENDING</span>Implementation Phase</h3>
 
-<ul>
+<ul class="text-sm">
 <li>Focus will be on <span class="text-yellow-500">the journey to production</span> <b>NOT</b> live model monitoring</li>
-<li class="object-contain">Will integrate with <img src="/mlflow.png" class="object-contain h-10 inline border rounded m-2 p-2"/> model-registry</li>
+<li class="object-contain">Will integrate with <img src="/mlflow.png" class="object-contain h-10 inline border rounded p-2"/> model-registry</li>
 </ul>
 </div>
 <Socials />
@@ -446,7 +446,74 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 <Speaker name="Ivan"/>
 <Socials />
 
+---
 
+# Diffing with Dolt
+<Speaker name="Dolt team"/>
+
+<div class="flex">
+
+  <div class="flex-grow">
+    <div><Profile name="Max" role="Dolt engineer" github="max-hoffman" class="mb-3"/></div>
+    <div><Profile name="Oscar" role="Dolt engineer" github="oscarbatori"/></div>
+  </div>
+  <div class="flex-auto"> 
+  
+
+  <img src="/profiles/dolt_team.png" class="h-30 m-auto">
+
+  <ul class="text-sm max-w-80">
+  <li>Dolt is database you can use like <kbd>git</kbd> </li>
+  <li>More robust than our <kbd>*VersionedDataSet</kbd>s </li>
+  <li>Supports crazy stuff like data <kbd>diff</kbd>s 🤯</li>
+  <li>Python API or CLI inteface</li>
+  <li>Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
+  </ul>
+
+</div>
+<div class="flex-shrink">
+
+```bash  {1|8|9|all}
+$ dolt diff
+diff --dolt a/state_populations b/state_populations
+--- a/state_populations @ qqr3vd0ea6264oddfk4nmte66cajlhfl
++++ b/state_populations @ 17cinjh5jpimilefd57b4ifeetjcbvn2
++-----+---------------+------------+
+|     | state         | population |
++-----+---------------+------------+
+|  <  | New Hampshire | 0          |
+|  >  | New Hampshire | 141885     |
+|  <  | New Jersey    | 0          |
+|  >  | New Jersey    | 184139     |
+|  <  | New York      | 0          |
+|  >  | New York      | 340120     |
++-----+---------------+------------+
+
+$ dolt
+```
+
+<div abs class="abs-tl mt-90 ml-137"><p class="animate-pulse token function font-mono"> | </p></div>
+</div>
+</div>
+<Socials />
+---
+
+# Config optimisation
+
+- Configuration complexity has grown with Kedro
+- We have designed things against the principles of the 12 factor app
+- Large Kedro projects introduce a lot of YAML 
+- YAML `&anchors`, `run environemnts`, `TemplatedConfigLoader` and `Jinja2` have been added as <gg-band-aid class="inline"/> fixes
+
+What have our users have been saying?
+ 
+- Can I have a dynamically generated catalog?
+- Can I paramaterise a complex run?
+- Help I'm drowning in YAML!
+
+
+<Speaker name="Ivan"/>
+<Socials />
 ---
 
 # Community improvements
@@ -457,88 +524,81 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 <div grid="~ cols-2 gap-4">
     <div>
         <div v-click class="mb-12">
-        <div grid="~ cols-2">
-        <div><p class="text-gray-500 text-sm">
-            Slide into our DMs on 
-        <p class="inline bg-indigo-400 text-black p-1 rounded font-mono text-xs">
-            Discord 
-            <carbon-logo-discord class="inline" />
-        </p>
-        </p>
-        <p class="text-sm">
-            Open forum to chat 
-            <carbon-chat-bot class="inline" />
-            with the dev team
-            and for the community to assist support each other
-            <carbon-help class="inline" />
-        </p></div>
-        <div class="ml-9"><img src="/discord_qr.svg" class="h-35 m-3 rounded"/></div>
-        </div>
-        <iframe
-            src="https://discord.com/widget?id=778216384475693066&theme=dark"
-            allowtransparency="true"
-            width="400" height="220"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-            ></iframe>
+            <div class="flex">
+                <div class="flex-1">
+                    <p class="text-gray-500 text-sm inline">
+                        Slide into our DMs on
+                    </p>
+                    <p class="inline bg-indigo-400 text-black p-1 rounded font-mono text-xs inline">
+                        Discord
+                        <carbon-logo-discord class="inline" />
+                    </p>
+                    <p class="text-sm">
+                        Open forum to chat
+                        <carbon-chat-bot class="inline" />
+                        with the dev team and for the community to assist support each other
+                        <carbon-help class="inline" />
+                    </p>
+                </div>
+                <div class=""><img src="/discord_qr.svg" class="w-25 mb-3 ml-3 mr-6 rounded" /></div>
+            </div>
+            <iframe src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
     </div>
-    <v-clicks at=1 >
+    <v-clicks at="1">
         <div class="object-centre">
-        <div v-click class="">
-            <p class="text-sm text-gray-500">
-            <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
-                GitHub Discussions
-                <carbon-logo-github class="inline m-1" />
-            </p>
-            will help codify knowledge 🙌
-            </p>
-            <p class="text-sm">
-                Threaded conversations 
-                <twemoji-thread class="inline" />
-                , answers marked by
-                the maintainer 
-                <carbon-checkmark-filled  class="inline text-primary" /> <br>
-                and pinned
-                announcements 
-                <carbon-pin-filled class="inline text-pink-500" />
-            </p>
-            <table class="tg">
-                <thead>
-                    <tr>
-                    <td class="tg-0pky">🙌</td>
-                    <td class="tg-0pky"><span style="font-style:normal">Show and tell</span></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td class="tg-0lax">💡</td>
-                    <td class="tg-0lax">Ideas</td>
-                    </tr>
-                    <tr>
-                    <td class="tg-0lax">🙏</td>
-                    <td class="tg-0lax">Q&amp;A</td>
-                    </tr>
-                    <tr>
-                    <td class="tg-0lax">🆘</td>
-                    <td class="tg-0lax">Help</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div v-click class="mt-10">
-            <p class="text-sm text-red-400">
-                Deprecation 😭 of 
-            <p class="inline bg-red-400 text-black m-1 p-1 rounded font-mono text-xs">
-                discourse.kedro.community 
-                <fa-brands-discourse class="inline" />
-            </p>
-            </p>
-            <p class="text-sm">
-                We hope that the two avenues above will be better to this, StackOverflow
-                <fa-brands-stack-overflow class="inline" />
-                and other platforms
-            </p>
-        </div>
+            <div v-click class="">
+                <p class="text-sm text-gray-500"></p>
+                <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
+                    GitHub Discussions
+                    <carbon-logo-github class="inline m-1" />
+                </p>
+                will help codify knowledge 🙌
+                <p class="text-sm">
+                    Threaded conversations
+                    <twemoji-thread class="inline" />
+                    , answers marked by the maintainer
+                    <carbon-checkmark-filled class="inline text-primary" /> <br />
+                    and pinned announcements
+                    <carbon-pin-filled class="inline text-pink-500" />
+                </p>
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <td class="tg-0pky">🙌</td>
+                            <td class="tg-0pky"><span style="font-style: normal;">Show and tell</span></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-0lax">💡</td>
+                            <td class="tg-0lax">Ideas</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">🙏</td>
+                            <td class="tg-0lax">Q&amp;A</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax">🆘</td>
+                            <td class="tg-0lax">Help</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div v-click class="mt-5">
+                <p class="text-sm text-red-400 inline">
+                    Deprecation 😭 of
+                </p>
+                <p class="inline bg-red-400 text-black m-1 p-1 rounded font-mono text-xs">
+                    discourse.kedro.community
+                    <fa-brands-discourse class="inline" />
+                </p>
+                <p class="text-sm">
+                    We hope that the two avenues above will be better to this, StackOverflow
+                    <fa-brands-stack-overflow class="inline" />
+                    and other platforms
+                </p>
+            </div>
         </div>
     </v-clicks>
 </div>
@@ -551,6 +611,7 @@ layout: quote
 ---
 # 📣 Open Q&A Session
 
-
-
+<div abs class=" abs-tr mr-60 mt-52">
+<img src="/questions.gif" class="rounded rounded-lg shadow-lg h-30"/>
+</div>
 <Socials />

@@ -13,7 +13,7 @@ const props = defineProps({
   }
 })
 const gh = "https://github.com/"+props.github
-const img = "profiles/"+props.name.toString().toLowerCase()+".png";
+const img = "profiles/"+props.name.toString().replace('\s+', '_').toLowerCase()+".png";
 </script>
 
 <template>
