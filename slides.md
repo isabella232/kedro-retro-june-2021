@@ -500,20 +500,64 @@ $ dolt
 
 # Config optimisation
 
-- Configuration complexity has grown with Kedro
-- We have designed things against the principles of the 12 factor app
-- Large Kedro projects introduce a lot of YAML 
-- YAML `&anchors`, `run environemnts`, `TemplatedConfigLoader` and `Jinja2` have been added as <gg-band-aid class="inline"/> fixes
+<v-click at='4'><img abs src="help.png" class="rounded-xl abs-tr h-55 mr-25 mt-56"/></v-click>
 
-What have our users have been saying?
+<div class="flex pb-4">
+
+<v-click at="1">
+
+<div class="flex-1">
+
+  <div class="text-sm">
+
+  ### Configuration complexity is increasing 
+
+  - We designed against the principles of the [12 factor app](https://12factor.net/config)
+  - Large Kedro projects generate a lot of YAML
+  - There is no IDE support for bad YAML or references 
+
+  </div>
+
+
+</div>
+</v-click>
+
+<div class="flex mr-4">
+
+<v-click at="3">
+<div class="text-sm inline">
+
+### What have our users have been saying?
  
 - Can I have a dynamically generated catalog?
-- Can I paramaterise a complex run?
+- How do I paramaterise a complex run?
 - Help I'm drowning in YAML!
 
+</div>
+</v-click>
+</div>
+</div>
 
-<Speaker name="Ivan"/>
+<v-click at="2">
+<div class="text-sm w-124">
+
+### Over time bandaid fixes <gg-band-aid class="inline text-pink-500"/> have been introduced:
+
+
+|||
+|---|---|
+|YAML <code>&anchors</code> for reusing common structures|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
+|<code>run environemnts</code> allowing staging, test, prod patterns|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> customisation <carbon-arrow-down class="inline text-red-500" /> brevity</div>|
+|<code>TemplatedConfigLoader</code> DSL for string interpolation|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
+|<code>jinja2</code> introduces loops, conditionals and more|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> dynamism <carbon-arrow-down class="inline text-red-500" /> readability</div>|
+
+</div>
+</v-click>
+
+<Speaker name="Joel"/>
 <Socials />
+
+
 ---
 
 # Community improvements
