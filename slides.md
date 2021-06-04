@@ -526,7 +526,7 @@ $ dolt
 
 # Config optimisation
 
-<v-click at='4'><img abs src="help.png" class="rounded-xl abs-tr h-55 mr-25 mt-56"/></v-click>
+<v-click at='4'><img abs src="/help.png" class="rounded-xl abs-tr h-55 mr-25 mt-56"/></v-click>
 
 <div class="flex pb-4">
 
