@@ -526,10 +526,10 @@ $ dolt
 
 # Config optimisation
 
-<v-click at='4'><img abs src="/help.png" class="rounded-xl abs-tr h-55 mr-25 mt-56"/></v-click>
+
 
 <div class="flex pb-4">
-
+<v-click at='4'><img abs src="/help.png" class="rounded-xl abs-tr h-55 mr-25 mt-56"/></v-click>
 <v-click at="1">
 
 <div class="flex-1">
@@ -655,22 +655,108 @@ $ dolt
                     </tbody>
                 </table>
             </div>
-            <div v-click class="mt-5">
-                <p class="text-sm text-red-400 inline">
-                    Deprecation 😭 of
-                </p>
-                <p class="inline bg-red-400 text-black m-1 p-1 rounded font-mono text-xs">
-                    discourse.kedro.community
-                    <fa-brands-discourse class="inline" />
-                </p>
-                <p class="text-sm">
-                    We hope that the two avenues above will be better to this, StackOverflow
-                    <fa-brands-stack-overflow class="inline" />
-                    and other platforms
-                </p>
-            </div>
         </div>
     </v-clicks>
+</div>
+
+
+<Socials />
+
+---
+
+# Community improvements
+
+<Speaker name="Yetu"/>
+
+
+<div grid="~ cols-2 gap-4">
+    <div>
+        <div class="mb-12">
+            <div class="flex opacity-2">
+                <div class="flex-1">
+                    <p class="text-gray-500 text-sm inline">
+                        Slide into our DMs on
+                    </p>
+                    <p class="inline bg-indigo-400 text-black p-1 rounded font-mono text-xs inline">
+                        Discord
+                        <carbon-logo-discord class="inline" />
+                    </p>
+                    <p class="text-sm">
+                        Open forum to chat
+                        <carbon-chat-bot class="inline" />
+                        with the dev team and for the community to assist support each other
+                        <carbon-help class="inline" />
+                    </p>
+                </div>
+                <div class=""><img src="/discord_qr.svg" class="w-25 mb-3 ml-3 mr-6 rounded" /></div>
+            </div>
+            <iframe  src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="opacity-2"></iframe>
+        </div>
+    </div>
+    <div class="object-centre ">
+        <div class="opacity-2">
+            <p class="text-sm text-gray-500"></p>
+            <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
+                GitHub Discussions
+                <carbon-logo-github class="inline m-1" />
+            </p>
+            will help codify knowledge 🙌
+            <p class="text-sm">
+                Threaded conversations
+                <twemoji-thread class="inline" />
+                , answers marked by the maintainer
+                <carbon-checkmark-filled class="inline text-primary" /> <br />
+                and pinned announcements
+                <carbon-pin-filled class="inline text-pink-500" />
+            </p>
+            <table class="tg">
+                <thead>
+                    <tr>
+                        <td class="tg-0pky">🙌</td>
+                        <td class="tg-0pky"><span style="font-style: normal;">Show and tell</span></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tg-0lax">💡</td>
+                        <td class="tg-0lax">Ideas</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">🙏</td>
+                        <td class="tg-0lax">Q&amp;A</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">🆘</td>
+                        <td class="tg-0lax">Help</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <v-click>
+            <div abs class="abs-tl mt-40 ml-40 ">
+            <div><img src="/kedroid.png" class="transform -rotate-10 h-30 inline"></div>
+          </div>
+          <div abs class="abs-tl mt-42 ml-75">
+            <span><p>Remember! (And you're all Kedroids now)</p>
+            <p class="inline text-2.5em align-middle  text-yellow-500">Helpful Kedroids get merch <twemoji-t-shirt class="inline text-lg"/></p></span>
+          </div>
+        </v-click>
+        <div v-click class="mt-5">
+            <p class="text-sm text-red-400 inline">
+                Deprecation 😭 of
+            </p>
+            <p class="inline bg-red-400 text-black m-1 p-1 rounded font-mono text-xs">
+                discourse.kedro.community
+                <fa-brands-discourse class="inline" />
+            </p>
+            <p class="text-sm">
+                We hope that the two avenues above will be better to this, StackOverflow
+                <fa-brands-stack-overflow class="inline" />
+                and other platforms
+            </p>
+        </div>
+    </div>
+
 </div>
 
 
