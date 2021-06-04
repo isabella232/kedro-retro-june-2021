@@ -33,6 +33,7 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 - 🤔 What actually is Kedro?
 - 🤖 Meet the team
 - 👩‍🍳 What the team have been cooking
+- 🧘‍♀️ The Principles of Kedro 
 - 🗑 No context Kedro 
 - 💅 Kedro Viz: Not just a pretty face
 - 🔮 A look to the future 
@@ -179,6 +180,31 @@ url: https://quantumblacklabs.github.io/kedro-viz
 </v-clicks>
 
 
+<Socials />
+
+---
+
+# The Principles of Kedro 
+
+These principles to summarise our development philosophy and guides our thinking on<br> what Kedro should <carbon-checkmark-filled class="inline text-primary"/> and shouldn't do <carbon-close-filled class="inline text-red-500"/>
+
+<div class="flex">
+<div class="w-95 m-auto">
+
+||
+|---|
+|<mdi-numeric-1-circle class="inline text-primary mr-3"/> Modularity at the core ️📦|
+|<mdi-numeric-2-circle class="inline text-primary mr-3"/> Grow beginners into experts 🌱|
+|<mdi-numeric-3-circle class="inline text-primary mr-3"/> User empathy without unfounded assumptions 🤝|
+|<mdi-numeric-4-circle class="inline text-primary mr-3"/> Simplicity means bare necessities 🍞|
+|<mdi-numeric-5-circle class="inline text-primary mr-3"/> There should be one obvious way of doing things 🎯|
+|<mdi-numeric-6-circle class="inline text-primary mr-3"/> A sprinkle of magic is better than a spoonful of it ✨|
+|<mdi-numeric-7-circle class="inline text-primary mr-3"/> Lean process and lean product 👟|
+
+</div>
+
+</div>
+<Speaker name="Ivan"/>
 <Socials />
 ---
 
