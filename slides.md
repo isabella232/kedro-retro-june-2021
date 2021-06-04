@@ -672,7 +672,7 @@ $ dolt
 <div grid="~ cols-2 gap-4">
     <div>
         <div class="mb-12">
-            <div class="flex opacity-2">
+            <div class="flex opacity-10">
                 <div class="flex-1">
                     <p class="text-gray-500 text-sm inline">
                         Slide into our DMs on
@@ -690,11 +690,11 @@ $ dolt
                 </div>
                 <div class=""><img src="/discord_qr.svg" class="w-25 mb-3 ml-3 mr-6 rounded" /></div>
             </div>
-            <iframe  src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="opacity-2"></iframe>
+            <iframe  src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="opacity-10"></iframe>
         </div>
     </div>
     <div class="object-centre ">
-        <div class="opacity-2">
+        <div class="opacity-10">
             <p class="text-sm text-gray-500"></p>
             <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
                 GitHub Discussions
@@ -736,9 +736,10 @@ $ dolt
             <div abs class="abs-tl mt-40 ml-40 ">
             <div><img src="/kedroid.png" class="transform -rotate-10 h-30 inline"></div>
           </div>
-          <div abs class="abs-tl mt-42 ml-75">
-            <span><p>Remember! (And you're all Kedroids now)</p>
-            <p class="inline text-2.5em align-middle  text-yellow-500">Helpful Kedroids get merch <twemoji-t-shirt class="inline text-lg"/></p></span>
+          <div abs class="abs-tl mt-47 ml-72 bg-dark-800 p-5 bg-opacity-80 rounded">
+            <p class="inline text-1em">Rememeber! Helpful </p>
+            <p class="inline text-2.0em text-yellow-500 p-2">Kedroids</p>
+            <p class="inline text-1em">get cool merch <KedroIcon class="inline h-9 align-top"/></p>
           </div>
         </v-click>
         <div v-click class="mt-5">
