@@ -67,7 +67,7 @@ url: >-
 <Socials />
 ---
 layout: iframe-right
-url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/01_nodes.html#nodes
+url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/01_nodes.html#how-to-create-a-node
 ---
 <Overview />
 <Speaker name="Joel"/>
@@ -75,7 +75,7 @@ url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/01_nodes.html
 <Socials />
 ---
 layout: iframe-right
-url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/02_pipeline_introduction.html#pipelines
+url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/02_pipeline_introduction.html#how-to-build-a-pipeline
 ---
 <Overview />
 <Speaker name="Joel"/>
@@ -83,7 +83,7 @@ url: https://kedro.readthedocs.io/en/stable/06_nodes_and_pipelines/02_pipeline_i
 <Socials />
 ---
 layout: iframe-right
-url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference.html
+url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference.html#kedro-commands
 ---
 <Overview />
 <Speaker name="Joel"/>
@@ -91,7 +91,7 @@ url: https://kedro.readthedocs.io/en/stable/09_development/03_commands_reference
 <Socials />
 ---
 layout: iframe-right
-url: https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html#deployment-guide
+url: https://kedro.readthedocs.io/en/stable/10_deployment/01_deployment_guide.html#deployment-choices
 ---
 <Overview />
 <Speaker name="Joel"/>
@@ -145,42 +145,94 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 ---
 
-## What have been cooking recently 👩‍🍳?
+## What have the team been cooking recently 👩‍🍳?
 
  <Speaker name="Joel"/>
 
 <h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd> and <kbd>0.17.3</kbd></h3>
+<div class="grid grid-cols-4 mt-6">
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between  ">
+      <emojione-building-construction class="text-4em m-auto mt-2 h-20"/>
+      <p class="text-center text-0.8em">
+        Rewritten framework internals
+      </p>
+    </div>
+  </div>
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+      <fxemoji-tapecartridge class="text-4em m-auto mt-2 h-20"/>
+        <p class="text-center text-0.8em">
+          <kbd>KedroSession</kbd> introduced
+        </p>
+    </div>
+  </div>
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+      <carbon-terminal class="text-4em m-auto mt-2 h-20 text-gray-100"/>
+        <p class="text-center text-0.8em">
+          Extensible CLI commands
+        </p>
+    </div>
+  </div>
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
+      <file-icons-jinja class="text-4em m-auto mt-2 h-20 text-red-400"/>
+      <p class="text-center text-0.8em">
+        Jinja2 templating
+      </p>
+    </div>
+  </div>
+
+</div>
 
 
+<div class="grid grid-cols-4">
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+      <simple-icons-fastapi class="text-4em m-auto mt-2 h-20 text-primary"/>
+        <p class="text-center text-0.8em">
+          FastAPI rewrite of Viz backend
+        </p>
+    </div>
+  </div>
 
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+      <fxemoji-present class="text-4em m-auto mt-2 h-20 text-primary"/>
+        <p class="text-center text-0.8em">
+          Improved packaging
+        </p>
+    </div>
+  </div>
 
-<v-click><p class="text-m"> Breaking changes</p></v-click>
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
+      <twemoji-sleeping-face class="text-4em m-auto mt-2 h-20"/>
+      <p class="text-center text-0.8em">
+        Lazy <kbd>Pipeline</kbd> loads
+      </p>
+    </div>
+  </div>
 
-<v-clicks class='text-sm'>
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+      <emojione-bug class="text-4em m-auto mt-2 h-20"/>
+        <p class="text-center text-0.8em">
+          Dead bugs
+        </p>
+    </div>
+  </div>
 
-
-- 📼 `KedroSession` is the new way we manage the lifecycle of a run.
-- 🐍 `settings.py` and `pyproject.toml`  replace `.kedro.yml` for project configuration
-- 📌 `__main__.py` is the new project entry-point
-
-</v-clicks>
-
-
-
-<v-click><p class="text-m"> Other highlights</p></v-click>
-
-<v-clicks class='text-sm'>
-
-- 🧘‍♂️ Lazy loading of registered `Pipeline` objects
-- 🆕 `Jinja2` templating added to `TemplatedconfigLoader`
-- 🏃‍♀️ Complete rewrite of the `Kedro Viz` back-end using `FastAPI`
-- 🎁 Improved packaging
-- 🙌 Custom starters, new hooks, customisable CLI, bug fixes 🐛 and more...
-
-</v-clicks>
+</div>
 
 
 <Socials />
+
 
 ---
 
@@ -202,7 +254,7 @@ These principles to summarise our development philosophy and guides our thinking
 |<mdi-numeric-7-circle class="inline text-primary mr-3"/> Lean process and lean product 👟|
 
 </div>
-
+<KedroIcon class="h-80 m-auto"/>
 </div>
 <Speaker name="Ivan"/>
 <Socials />
@@ -492,7 +544,7 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
   <li>Dolt is database you can use like <kbd>git</kbd> </li>
   <li>More robust than our <kbd>*VersionedDataSet</kbd>s </li>
   <li>Supports crazy stuff like data <kbd>diff</kbd>s 🤯</li>
-  <li>Python API or CLI inteface</li>
+  <li>Python API or CLI interface</li>
   <li>Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
   </ul>
 
@@ -615,8 +667,8 @@ $ dolt
             <iframe src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
     </div>
-    <v-clicks at="1">
-        <div class="object-centre">
+    <v-click at="1">
+        <div class="object-center">
             <div v-click class="">
                 <p class="text-sm text-gray-500"></p>
                 <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
@@ -656,7 +708,7 @@ $ dolt
                 </table>
             </div>
         </div>
-    </v-clicks>
+    </v-click>
 </div>
 
 
@@ -693,7 +745,7 @@ $ dolt
             <iframe  src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="opacity-10"></iframe>
         </div>
     </div>
-    <div class="object-centre ">
+    <div class="object-center ">
         <div class="opacity-10">
             <p class="text-sm text-gray-500"></p>
             <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
@@ -736,7 +788,7 @@ $ dolt
             <div abs class="abs-tl mt-40 ml-40 ">
             <div><img src="/kedroid.png" class="transform -rotate-10 h-30 inline"></div>
           </div>
-          <div abs class="abs-tl mt-47 ml-72 bg-dark-800 p-5 bg-opacity-80 rounded">
+          <div abs class="abs-tl mt-47 ml-72 bg-dark-800 p-5 bg-opacity-80 rounded-1em">
             <p class="inline text-1em">Rememeber! Helpful </p>
             <p class="inline text-2.0em text-yellow-500 p-2">Kedroids</p>
             <p class="inline text-1em">get cool merch <KedroIcon class="inline h-9 align-top"/></p>
