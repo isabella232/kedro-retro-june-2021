@@ -6,4 +6,4 @@ To start the slide show:
 - `npm run dev`
 - visit http://localhost:3030
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+Learn more about Slidev on [documentation](https://sli.dev/).

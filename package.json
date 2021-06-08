@@ -13,6 +13,9 @@
   },
   "name": "showcase-june",
   "slidev": {
-    "colorSchema": "dark"
+    "colorSchema": "light"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.11.1"
   }
 }
