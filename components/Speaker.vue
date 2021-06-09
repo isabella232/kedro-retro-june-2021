@@ -6,7 +6,7 @@ const props = defineProps({
     type: String,
   },
 });
-const img = "/profiles/" + props.name.toString().replace(' ', '_').toLowerCase() + ".png";
+const img = "kedro-retro-june-2021/" + props.name.toString().replace(' ', '_').toLowerCase() + ".png";
 </script>
 
 <template>

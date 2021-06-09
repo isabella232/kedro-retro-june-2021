@@ -1,7 +1,6 @@
 ---
 layout: image
 image: background.png
-theme: light-icons
 ---
 
 <p class="text-2em text-yellow-500"><span class="bg-dark-900 m-2 rounded bg-opacity-60"> Open Kedro Retro #1 </span></p>
@@ -195,7 +194,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <simple-icons-fastapi class="text-4em m-auto mt-2 h-20 text-primary"/>
+      <simple-icons-fastapi class="text-4em m-auto mt-2 h-20 text-green-400"/>
         <p class="text-center text-0.8em">
           FastAPI rewrite of Viz backend
         </p>
@@ -204,7 +203,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fxemoji-present class="text-4em m-auto mt-2 h-20 text-primary"/>
+      <fxemoji-present class="text-4em m-auto mt-2 h-20 text-green-400"/>
         <p class="text-center text-0.8em">
           Improved packaging
         </p>
@@ -239,20 +238,20 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 # The Principles of Kedro 
 
-These principles to summarise our development philosophy and guides our thinking on<br> what Kedro should <carbon-checkmark-filled class="inline text-primary"/> and shouldn't do <carbon-close-filled class="inline text-red-500"/>
+These principles to summarise our development philosophy and guides our thinking on<br> what Kedro should <carbon-checkmark-filled class="inline text-green-400"/> and shouldn't do <carbon-close-filled class="inline text-red-500"/>
 
 <div class="flex">
 <div class="w-95 m-auto">
 
 ||
 |---|
-|<mdi-numeric-1-circle class="inline text-primary mr-3"/> Modularity at the core ️📦|
-|<mdi-numeric-2-circle class="inline text-primary mr-3"/> Grow beginners into experts 🌱|
-|<mdi-numeric-3-circle class="inline text-primary mr-3"/> User empathy without unfounded assumptions 🤝|
-|<mdi-numeric-4-circle class="inline text-primary mr-3"/> Simplicity means bare necessities 🍞|
-|<mdi-numeric-5-circle class="inline text-primary mr-3"/> There should be one obvious way of doing things 🎯|
-|<mdi-numeric-6-circle class="inline text-primary mr-3"/> A sprinkle of magic is better than a spoonful of it ✨|
-|<mdi-numeric-7-circle class="inline text-primary mr-3"/> Lean process and lean product 👟|
+|<mdi-numeric-1-circle class="inline text-green-400 mr-3"/> Modularity at the core ️📦|
+|<mdi-numeric-2-circle class="inline text-green-400 mr-3"/> Grow beginners into experts 🌱|
+|<mdi-numeric-3-circle class="inline text-green-400 mr-3"/> User empathy without unfounded assumptions 🤝|
+|<mdi-numeric-4-circle class="inline text-green-400 mr-3"/> Simplicity means bare necessities 🍞|
+|<mdi-numeric-5-circle class="inline text-green-400 mr-3"/> There should be one obvious way of doing things 🎯|
+|<mdi-numeric-6-circle class="inline text-green-400 mr-3"/> A sprinkle of magic is better than a spoonful of it ✨|
+|<mdi-numeric-7-circle class="inline text-green-400 mr-3"/> Lean process and lean product 👟|
 
 </div>
 <KedroIcon class="h-80 m-auto"/>
@@ -291,7 +290,7 @@ These principles to summarise our development philosophy and guides our thinking
 
 </div>
 
-<div v-click class="abs abs-tl ml-36 mt-35"><Frame src="/delorean.gif"/></div>
+<div v-click class="abs abs-tl ml-36 mt-35"><Frame src="delorean.gif"/></div>
 
 <div class="grid grid-cols-3 p-1">
 <div class="border border-dark-400 rounded-lg py-2 content-between m-3">
@@ -318,7 +317,7 @@ These principles to summarise our development philosophy and guides our thinking
 
 </div>
 </div>
-<div v-click class="abs abs-tl ml-109 mt-35"><Frame src="/recipe.gif"/></div>
+<div v-click class="abs abs-tl ml-109 mt-35"><Frame src="recipe.gif"/></div>
 
 <div v-click class="border border-dark-400 rounded-lg py-2 content-between m-3">
 <p class="text-center font-mono">pyproject.toml <grommet-icons-document-config class="inline" /></p>
@@ -332,7 +331,7 @@ These principles to summarise our development philosophy and guides our thinking
 
 </div>
 
-<div v-click class="abs abs-tl ml-180 mt-35"><Frame src="/packaging.gif"/></div>
+<div v-click class="abs abs-tl ml-180 mt-35"><Frame src="packaging.gif"/></div>
 </div>
 
 <v-click>
@@ -342,7 +341,7 @@ These principles to summarise our development philosophy and guides our thinking
 ```ini
 kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSessionStore'. Assuming empty store
 ```
-<p class="text-sm"><span class="animate-pulse">☝️</span> This annoying message will soon dissapear!</p>
+<p class="text-sm"><span class="animate-pulse">☝️</span> This annoying message will soon disappear!</p>
 
 </div>
 
@@ -363,15 +362,15 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
       Modular pipelines become<br>
       1<sup>st</sup> class citizens
     </p>
-    <VizRing src="/modular.png" color="ring-purple-500" />
+    <VizRing src="modular.png" color="ring-purple-500" />
   </div>
-  <div v-click class="p-3 text-primary m-auto">
+  <div v-click class="p-3 text-green-400 m-auto">
     <simple-icons-fastapi class="text-3em m-auto" />
     <p class="text-base m-auto text-center">
       FastAPI rewrite<br>
       of backend
     </p>
-    <VizRing src="/fastapi.png" color="ring-primary" />
+    <VizRing src="fastapi.png" color="ring-green-400" />
   </div>
   <div v-click class="p-3 text-blue-500">
     <simple-icons-plotly class="text-3em m-auto" />
@@ -379,7 +378,7 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
       Native Plotly integration<br>
       within the DAG
     </p>
-    <VizRing src="/plotly.png" color="ring-blue-500" />
+    <VizRing src="plotly.png" color="ring-blue-500" />
   </div>
 </div>
 
@@ -503,7 +502,7 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
   <div class="flex flex-col border rounded m-1 border-dark-400">
     <div class="m-auto mt-2">    
       <span>
-        <simple-icons-jfrog class="m-2 h-6 w-6 text-primary inline"/>
+        <simple-icons-jfrog class="m-2 h-6 w-6 text-green-400 inline"/>
         <p class="inline text-xs">JFrog Artifactory</p>
       </span>
       <br>
@@ -540,12 +539,12 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
   <div class="flex-auto"> 
   
 
-  <img src="/profiles/dolt_team.png" class="h-30 m-auto">
+  <img src="/kedro-retro-june-2021/dolt_team.png" class="h-30 m-auto">
 
-  <ul class="text-sm max-w-80">
-  <li>Dolt is database you can use like <kbd>git</kbd> </li>
-  <li>More robust than our <kbd>*VersionedDataSet</kbd>s </li>
-  <li>Supports crazy stuff like data <kbd>diff</kbd>s 🤯</li>
+  <ul class="text-0.8em max-w-80">
+  <li>Dolt is database you can use like <code>git</code> </li>
+  <li>More robust than our <code>*VersionedDataSet</code> </li>
+  <li>Supports crazy stuff like data <code>diff</code> 🤯</li>
   <li>Python API or CLI interface</li>
   <li>Kedro <KedroIcon class="h-8 inline"/> integration is coming!</li>
   </ul>
@@ -626,10 +625,10 @@ $ dolt
 
 |||
 |---|---|
-|YAML <code>&anchors</code> for reusing common structures|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
-|<code>run environemnts</code> allowing staging, test, prod patterns|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> customisation <carbon-arrow-down class="inline text-red-500" /> brevity</div>|
-|<code>TemplatedConfigLoader</code> DSL for string interpolation|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
-|<code>jinja2</code> introduces loops, conditionals and more|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-primary" /> dynamism <carbon-arrow-down class="inline text-red-500" /> readability</div>|
+|YAML <code>&anchors</code> for reusing common structures|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
+|<code>run environemnts</code> allowing staging, test, prod patterns|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> customisation <carbon-arrow-down class="inline text-red-500" /> brevity</div>|
+|<code>TemplatedConfigLoader</code> DSL for string interpolation|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
+|<code>jinja2</code> introduces loops, conditionals and more|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> dynamism <carbon-arrow-down class="inline text-red-500" /> readability</div>|
 
 </div>
 </v-click>
@@ -682,7 +681,7 @@ $ dolt
                     Threaded conversations
                     <twemoji-thread class="inline" />
                     , answers marked by the maintainer
-                    <carbon-checkmark-filled class="inline text-primary" /> <br />
+                    <carbon-checkmark-filled class="inline text-green-400" /> <br />
                     and pinned announcements
                     <carbon-pin-filled class="inline text-pink-500" />
                 </p>
@@ -759,7 +758,7 @@ $ dolt
                 Threaded conversations
                 <twemoji-thread class="inline" />
                 , answers marked by the maintainer
-                <carbon-checkmark-filled class="inline text-primary" /> <br />
+                <carbon-checkmark-filled class="inline text-green-400" /> <br />
                 and pinned announcements
                 <carbon-pin-filled class="inline text-pink-500" />
             </p>

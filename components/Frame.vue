@@ -7,7 +7,7 @@ const props = defineProps({
     type: String,
   },
 });
-const img = props.src;
+const img = '/kedro-retro-june-2021/'+props.src;
 </script>
 
 <template>
