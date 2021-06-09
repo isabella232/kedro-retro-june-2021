@@ -4,3 +4,4 @@ dist
 *.local
 .remote-assets
 .vscode/spellright.dict
+yarn.lock
