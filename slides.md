@@ -149,12 +149,12 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
  <Speaker name="Joel"/>
 
-<h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd> and <kbd>0.17.3</kbd></h3>
-<div class="grid grid-cols-4 mt-6">
+<h3> Recently, we have rewritten how Kedro works behind the scenes <ic-baseline-auto-fix-high class="inline"/><br>Since December 2020 🎄 we have released versions <kbd>0.17.0</kbd>, <kbd>0.17.1</kbd>, <kbd>0.17.2</kbd>, <kbd>0.17.3</kbd> and <kbd>0.17.4</kbd></h3>
+<div class="grid grid-cols-4 mt-3">
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between  ">
-      <emojione-building-construction class="text-4em m-auto mt-2 h-20"/>
+      <emojione-building-construction class="text-3em m-auto mt-2 -mb-2 h-10"/>
       <p class="text-center text-0.8em">
         Rewritten framework internals
       </p>
@@ -163,7 +163,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fxemoji-tapecartridge class="text-4em m-auto mt-2 h-20"/>
+      <fxemoji-tapecartridge class="text-3em m-auto mt-2 -mb-2 h-10"/>
         <p class="text-center text-0.8em">
           <kbd>KedroSession</kbd> introduced
         </p>
@@ -172,19 +172,19 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <carbon-terminal class="text-4em m-auto mt-2 h-20 text-gray-100"/>
+        <twemoji-sleeping-face class="text-3em m-auto mt-2 -mb-2 h-10"/>
         <p class="text-center text-0.8em">
-          Extensible CLI commands
-        </p>
+          Lazy <kbd>Pipeline</kbd> loads
+      </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-      <file-icons-jinja class="text-4em m-auto mt-2 h-20 text-red-400"/>
-      <p class="text-center text-0.8em">
-        Jinja2 templating
-      </p>
+      <la-cash-register class="text-3em m-auto mt-2 -mb-2 h-10 text-pink-400"/>
+        <p class="text-center text-0.8em">
+          Pipeline registry
+        </p>
     </div>
   </div>
 
@@ -194,16 +194,55 @@ url: https://quantumblacklabs.github.io/kedro-viz
 <div class="grid grid-cols-4">
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <simple-icons-fastapi class="text-4em m-auto mt-2 h-20 text-green-400"/>
+     <simple-icons-fastapi class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
         <p class="text-center text-0.8em">
-          FastAPI rewrite of Viz backend
+          FastAPI Viz backend
         </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fxemoji-present class="text-4em m-auto mt-2 h-20 text-green-400"/>
+      <fluent-split-horizontal-16-regular class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
+        <p class="text-center text-0.8em">
+          Split navigation panel
+        </p>
+    </div>
+  </div>
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between">
+      <dashicons-media-code class="text-3em m-auto mt-2 -mb-2 h-10 text-blue-200"/>
+      <p class="text-center text-0.8em">
+        Code panel
+      </p>
+    </div>
+  </div>
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+     <vaadin-file-tree-sub class="text-3em m-auto mt-2 -mb-2 h-10 text-yellow-400"/>
+        <p class="text-center text-0.8em">
+          Visual modular pipelines
+        </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="grid grid-cols-4">
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+    <file-icons-jinja class="text-3em m-auto mt-2 -mb-2 h-10 text-red-400"/>
+      <p class="text-center text-0.8em">
+        Jinja2 templating
+      </p>
+    </div>
+  </div>
+
+  <div class="w-50 m-2">
+    <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
+      <fxemoji-present class="text-3em m-auto mt-2 -mb-2 h-10 text-green-400"/>
         <p class="text-center text-0.8em">
           Improved packaging
         </p>
@@ -212,16 +251,16 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between">
-      <twemoji-sleeping-face class="text-4em m-auto mt-2 h-20"/>
-      <p class="text-center text-0.8em">
-        Lazy <kbd>Pipeline</kbd> loads
-      </p>
+     <carbon-terminal class="text-3em m-auto mt-2 -mb-2 h-10 text-gray-100"/>
+        <p class="text-center text-0.8em">
+          Extensible CLI commands
+        </p>
     </div>
   </div>
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <emojione-bug class="text-4em m-auto mt-2 h-20"/>
+      <emojione-bug class="text-3em m-auto mt-2 -mb-2 h-10"/>
         <p class="text-center text-0.8em">
           Dead bugs
         </p>
@@ -236,44 +275,22 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 ---
 
-# The Principles of Kedro 
-
-These principles to summarise our development philosophy and guides our thinking on<br> what Kedro should <carbon-checkmark-filled class="inline text-green-400"/> and shouldn't do <carbon-close-filled class="inline text-red-500"/>
-
-<div class="flex">
-<div class="w-95 m-auto">
-
-||
-|---|
-|<mdi-numeric-1-circle class="inline text-green-400 mr-3"/> Modularity at the core ️📦|
-|<mdi-numeric-2-circle class="inline text-green-400 mr-3"/> Grow beginners into experts 🌱|
-|<mdi-numeric-3-circle class="inline text-green-400 mr-3"/> User empathy without unfounded assumptions 🤝|
-|<mdi-numeric-4-circle class="inline text-green-400 mr-3"/> Simplicity means bare necessities 🍞|
-|<mdi-numeric-5-circle class="inline text-green-400 mr-3"/> There should be one obvious way of doing things 🎯|
-|<mdi-numeric-6-circle class="inline text-green-400 mr-3"/> A sprinkle of magic is better than a spoonful of it ✨|
-|<mdi-numeric-7-circle class="inline text-green-400 mr-3"/> Lean process and lean product 👟|
-
-</div>
-<KedroIcon class="h-80 m-auto"/>
-</div>
-<Speaker name="Ivan"/>
-<Socials />
----
-
 # No context Kedro ?
 
 <Speaker name="Lorena"/>
 
+<div class="">
 <v-clicks>
 
 - <carbon-clean class="inline text-yellow-500"/> In the beginning there was no context
 - <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
 - <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> / <vscode-icons-file-type-jupyter class="inline"/> sessions)
-- 😭 It's now time to start divorce proceedings and move to a new approach...
+- 😭 It's now time to start divorce proceedings and move to a new approach
+- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd> we plan to deprecate `xxx` and `yyyy`
 
 </v-clicks>
+</div>
 
-<Socials />
 
 ---
 
@@ -286,7 +303,8 @@ These principles to summarise our development philosophy and guides our thinking
 - <carbon-clean class="inline text-yellow-500"/> In the beginning there was no context
 - <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
 - <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> / <vscode-icons-file-type-jupyter class="inline"/> sessions)
-- 😭 It's now time to start divorce proceedings and move to a new approach...
+- 😭 It's now time to start divorce proceedings and move to a new approach
+- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd> we plan to deprecate `xxx` and `yyyy`
 
 </div>
 
@@ -350,37 +368,14 @@ kedro.framework.session.store - INFO - 'read()' not implemented for 'BaseSession
 <Socials />
 
 ---
+layout: quote
+---
 
 # 💅 Kedro Viz: Not just a pretty face
-<Speaker name="Susanna"/>
-
-<div grid="~ cols-3">
-
-  <div v-click class="p-3 text-purple-400">
-    <mdi-pipe class="text-3em m-auto align-text" />
-    <p class="text-base m-auto text-center">
-      Modular pipelines become<br>
-      1<sup>st</sup> class citizens
-    </p>
-    <VizRing src="modular.png" color="ring-purple-500" />
-  </div>
-  <div v-click class="p-3 text-green-400 m-auto">
-    <simple-icons-fastapi class="text-3em m-auto" />
-    <p class="text-base m-auto text-center">
-      FastAPI rewrite<br>
-      of backend
-    </p>
-    <VizRing src="fastapi.png" color="ring-green-400" />
-  </div>
-  <div v-click class="p-3 text-blue-500">
-    <simple-icons-plotly class="text-3em m-auto" />
-    <p class="text-base m-auto text-center">
-      Native Plotly integration<br>
-      within the DAG
-    </p>
-    <VizRing src="plotly.png" color="ring-blue-500" />
-  </div>
+<div abs class=" abs-tr mr-25 mt-45">
+<img src="/showtime.gif" class="rounded rounded-lg shadow-lg h-50"/>
 </div>
+<Speaker name="Susanna"/>
 
 <Socials />
 
@@ -403,7 +398,7 @@ layout: quote
 
 ---
 
-<h1>🧪 Native experiment tracking is coming to Kedro!</h1>
+# 🧪 Native experiment tracking is coming to Kedro!
 
 <div v-click>
 <h3 class='p-2 m-3 opacity-100'><span class="p-1 bg-dark-500 rounded text-green-600 mr-2"><carbon-checkmark-filled class="inline text-green-600 mr-1"/>IN PROGRESS</span>User research phase</h3>
@@ -460,7 +455,7 @@ layout: quote
 
 <ul class="text-sm">
 <li>Focus will be on <span class="text-yellow-500">the journey to production</span> <b>NOT</b> live model monitoring</li>
-<li class="object-contain">Will integrate with <img src="/mlflow.png" class="object-contain h-10 inline border rounded p-2"/> model-registry</li>
+<li class="object-contain">Will integrate with <img src="/mlflow.png" class="object-contain h-8 inline border rounded p-2 ml-1 mr-1"/> model-registry</li>
 </ul>
 </div>
 <Socials />
@@ -626,7 +621,7 @@ $ dolt
 |||
 |---|---|
 |YAML <code>&anchors</code> for reusing common structures|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
-|<code>run environemnts</code> allowing staging, test, prod patterns|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> customisation <carbon-arrow-down class="inline text-red-500" /> brevity</div>|
+|<code>run environments</code> allowing staging, test, prod patterns|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> customisation <carbon-arrow-down class="inline text-red-500" /> brevity</div>|
 |<code>TemplatedConfigLoader</code> DSL for string interpolation|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> brevity <carbon-arrow-down class="inline text-red-500" /> readability</div>|
 |<code>jinja2</code> introduces loops, conditionals and more|<div class="inline bg-dark-500 m-2 pl-1 pr-2 rounded-lg text-xs"><carbon-arrow-up class="inline text-green-400" /> dynamism <carbon-arrow-down class="inline text-red-500" /> readability</div>|
 
@@ -790,7 +785,7 @@ $ dolt
             <div><img src="/kedroid.png" class="transform -rotate-10 h-30 inline"></div>
           </div>
           <div abs class="abs-tl mt-47 ml-72 bg-dark-800 p-5 bg-opacity-80 rounded-1em">
-            <p class="inline text-1em">Rememeber! Helpful </p>
+            <p class="inline text-1em">Remember! Helpful </p>
             <p class="inline text-2.0em text-yellow-500 p-2">Kedroids</p>
             <p class="inline text-1em">get cool merch <KedroIcon class="inline h-9 align-top"/></p>
           </div>
