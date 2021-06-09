@@ -1,7 +1,7 @@
 ---
 layout: image
 image: background.png
-theme: apple-basic
+theme: light-icons
 ---
 
 <p class="text-2em text-yellow-500"><span class="bg-dark-900 m-2 rounded bg-opacity-60"> Open Kedro Retro #1 </span></p>
@@ -522,8 +522,9 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 </div>
 </v-click>
 
-<Speaker name="Ivan"/>
+<Speaker name="Lim"/>
 <Socials />
+
 
 ---
 
