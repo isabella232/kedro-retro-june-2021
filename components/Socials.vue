@@ -9,7 +9,7 @@
       <carbon-logo-python />
     </a>
     <a
-      href="https://discord.gg/sNR3R2M6"
+      href="https://discord.gg/akJDeVaxnB"
       target="_blank"
       alt="Discord"
       class="icon-btn opacity-80 rounded-full !border-none !hover:text-white fill-current text-purple-300"
