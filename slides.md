@@ -532,8 +532,8 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
 <div class="flex">
 
   <div class="flex-grow">
-    <div><Profile name="Max" role="Dolt engineer" github="max-hoffman" class="mb-3"/></div>
-    <div><Profile name="Oscar" role="Dolt engineer" github="oscarbatori"/></div>
+    <div><Profile name="Max" role="Integrations Engineer" github="max-hoffman" class="mb-3"/></div>
+    <div><Profile name="Oscar" role="Product" github="oscarbatori"/></div>
   </div>
   <div class="flex-auto"> 
   
