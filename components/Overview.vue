@@ -8,7 +8,7 @@
   </p>
 
   <ul>
-    <li>Cookie-cutter project template starters</li>
+    <li>Cookie-cutter <fluent-cookies-20-filled class="inline text-yellow-500" /> project template(s)</li>
     <li>A <kbd>DataCatalog</kbd> for your <code>DataSets</code></li>
     <li>
       <kbd>Node</kbd> objects wrap

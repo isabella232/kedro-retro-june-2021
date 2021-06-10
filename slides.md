@@ -30,24 +30,25 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 We’re excited to show you some of the cool stuff we’re currently cooking up and our vision for the future and Kedro's place within the ML ecosystem.
 
-- 🤔 What actually is Kedro?
-- 🤖 Meet the team
-- 👩‍🍳 What the team have been cooking
-- 🧘‍♀️ The Principles of Kedro 
-- 🗑 No context Kedro 
-- 💅 Kedro Viz: Not just a pretty face
-- 🔮 A look to the future 
-- 👋 Community improvements 
-- 📣 Q&A
+<ul>
+  <li><span @click="$slidev.nav.go(2)" hover="bg-white bg-opacity-10 rounded">🤔 What actually is Kedro?</span></li>
+  <li><span @click="$slidev.nav.go(11)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
+  <li><span @click="$slidev.nav.go(12)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
+  <li><span @click="$slidev.nav.go(13)" hover="bg-white bg-opacity-10 rounded">🗑 No context Kedro </span></li>
+  <li><span @click="$slidev.nav.go(15)" hover="bg-white bg-opacity-10 rounded">💅 Kedro Viz: Not just a pretty face</span></li>
+  <li><span @click="$slidev.nav.go(16)" hover="bg-white bg-opacity-10 rounded">🔮 A look to the future</span></li>
+  <li><span @click="$slidev.nav.go(21)" hover="bg-white bg-opacity-10 rounded">👋 Community improvements </span></li>
+  <li><span>📣 Q&A</span></li>
+</ul>
 
 <Socials />
 
 ---
-layout: iframe-right
-url: https://kedro.readthedocs.io/en/stable/
+layout: image-right
 ---
 <Overview />
 <Socials />
+<Youtube abs class="abs-tr mr-10 mt-30 rounded-xl" id="JLTYNPoK7nw" width="450" height="250"/>
 ---
 layout: iframe-right
 url: https://kedro.readthedocs.io/en/stable/02_get_started/06_starters.html
@@ -286,7 +287,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 - <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
 - <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> / <vscode-icons-file-type-jupyter class="inline"/> sessions)
 - 😭 It's now time to start divorce proceedings and move to a new approach
-- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd> we plan to deprecate `xxx` and `yyyy`
+- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd>  already deprecated parts of the context will be removed entirely
 
 </v-clicks>
 </div>
@@ -304,7 +305,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 - <carbon-crop class="inline text-yellow-500"/> Then the `KedroContext` helped us simplify Kedro
 - <carbon-maximize class="inline text-yellow-500"/> Over time it has become too big and too bloated (esp. <kbd>IPython</kbd> / <vscode-icons-file-type-jupyter class="inline"/> sessions)
 - 😭 It's now time to start divorce proceedings and move to a new approach
-- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd> we plan to deprecate `xxx` and `yyyy`
+- <mdi-robot-dead class="inline text-yellow-500"/> In <kbd>0.18.0</kbd>  already deprecated parts of the context will be removed entirely
 
 </div>
 
@@ -465,28 +466,31 @@ layout: quote
 
 # Modular pipeline packaging
 
-<v-click>
 
-Our first iteration of our 'modular pipelines' feature (version 0.16.2). 
+Our first iteration of our 'modular pipelines' feature (v0.16.2). 
+
+<v-clicks>
 
 - Users can <kbd>package</kbd>, <kbd>share</kbd>, <kbd>reuse</kbd> and <kbd>consume</kbd> pipelines as discrete units across teams. 
 - We now have a year's worth of user feedback on where to take this next
 - Ever-growing central `requirements.txt` is a common pain point
 
-</v-click>
+</v-clicks>
 
 <v-click>
-<p class="text-gray-500">Inner-sourced knowledge</p>
+  <p class="text-gray-500">Inner-sourced knowledge</p>
+  <p class="text-s">We want it to becomes common practice to re-use entire pipelines across different use cases.</p>
+</v-click>
 
 
-<p class="text-s">We want it to becomes common practice to re-use entire pipelines across different use cases.</p>
 <div grid="~ cols-3 ">
-  <div class="flex flex-col border rounded m-1  border-dark-400">
+  <v-click><div class="flex flex-col border rounded m-1  border-dark-400">
     <div class="m-auto">
       <KedroIcon class="h-max vertical-center rounded-full bg-dark-500 m-3"/>
     </div>
-  </div>
-  <div class="flex flex-col border rounded m-1 border-dark-400">
+  </div></v-click>
+  <v-click>
+    <div class="flex flex-col border rounded m-1 border-dark-400">
     <div class="m-auto text-center">
       <Arrow x1=600 y1=470 x2=380 y2=470 class="text-yellow-500 text-xl animate-pulse"/>
       <p>Push pipelines</p>
@@ -494,6 +498,8 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
       <Arrow x1=380 y1=360 x2=600 y2=360 class="text-yellow-500 text-xl animate-pulse"/>
     </div>
   </div>
+  </v-click>
+  <v-click>
   <div class="flex flex-col border rounded m-1 border-dark-400">
     <div class="m-auto mt-2">    
       <span>
@@ -513,8 +519,9 @@ Our first iteration of our 'modular pipelines' feature (version 0.16.2).
       <p class="text-xs text-gray-300 text-center">Any PyPI like endpoint</p>
     </div>
   </div>
+  </v-click>
 </div>
-</v-click>
+
 
 <Speaker name="Lim"/>
 <Socials />
