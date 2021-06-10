@@ -115,9 +115,9 @@ url: https://quantumblacklabs.github.io/kedro-viz
   <div><Profile name="Ivan" role="Tech lead" github="idanov"/></div>
   <div><Profile name="Lorena" role="SWE" github="lorenabalan"/></div>
   <div><Profile name="Merel" role="SWE" github="MerelTheisenQB"/></div>
-  <div><Profile name="Antony" role="SWE" github="AntonyMilneQB"/></div>
-  <div><Profile name="Ignacio" role="SWE" github="ignacioparicio"/></div>
-  <div><Profile name="Jiri" role="SWE" github="jiriklein"/></div>
+  <div><Profile name="Antony" role="DS" github="AntonyMilneQB"/></div>
+  <div><Profile name="Ignacio" role="DS" github="ignacioparicio"/></div>
+  <div><Profile name="Jiri" role="DE" github="jiriklein"/></div>
 </div>
 
 <div class="flex">
@@ -331,7 +331,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 <div class="text-sm">
 
 - The recipe for a run <mdi-chef-hat class="inline text-yellow-500"/>
-- <el-home-alt class="inline text-yellow-500"/> for `hooks` and `/conf/` loc
+- <el-home-alt class="inline text-yellow-500"/> for project customisations
 - <ri-caravan-fill class="inline text-yellow-500"/> `DataCatalog` is moving too...
 
 </div>
