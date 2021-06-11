@@ -18,24 +18,25 @@ const img = "kedro-retro-june-2021/"+props.name.toString().replace('\s+', '_').t
 
 <template>
 <div class="justify-center">
-<div class="max-w-23 shadow-lg">
-    <div class="bg-dark-500 rounded-lg py-2 flex flex-col content-between -space-y-7">
-    <span class="relative left-13 -top-3">
+<div class="w-23 shadow-lg">
+    <div class="bg-dark-500 rounded-lg flex flex-col">
+    <span class="relative left-14 -top-2">
     <a :href="gh" target="_blank"
     class="icon-btn !border-none">
     <carbon-logo-github/>
     </a>
     </span>
-        <div class="photo-wrapper">
+        <div class="photo-wrapper -mt-7">
         <img 
             class="w-12 h-12 rounded-full mx-auto border border-yellow-500" 
             :src="img" 
-            :alt=props.name>
+            :alt=props.name
+            hover="animate-spin"
+        >
         </div>
-        <div>
-        <br>
-            <p class="text-center text-gray-300">{{name}}</p>
-            <p class="text-xs text-center">{{role}}</p>
+        <div class="">
+            <p class="text-1.0em text-center text-gray-300">{{name}}</p>
+            <p class="text-0.7em text-center">{{role}}</p>
         </div>
     </div>
 </div>

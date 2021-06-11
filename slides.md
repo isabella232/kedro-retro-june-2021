@@ -109,39 +109,51 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 # Meet the team
 
-### Framework team
 
-<div class="grid grid-cols-8 p-2">
-  <div><Profile name="Ivan" role="Tech lead" github="idanov"/></div>
-  <div><Profile name="Lorena" role="SWE" github="lorenabalan"/></div>
-  <div><Profile name="Merel" role="SWE" github="MerelTheisenQB"/></div>
-  <div><Profile name="Antony" role="DS" github="AntonyMilneQB"/></div>
-  <div><Profile name="Ignacio" role="DS" github="ignacioparicio"/></div>
-  <div><Profile name="Jiri" role="DE" github="jiriklein"/></div>
+<div class="flex">
+  <div class="p-1">
+    <div><h3>Framework team</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Ivan" role="Tech lead" github="idanov"/></div>
+      <div><Profile name="Lorena" role="SWE" github="lorenabalan"/></div>
+      <div><Profile name="Merel" role="SWE" github="MerelTheisenQB"/></div>
+      <div><Profile name="Antony" role="DS SWE" github="AntonyMilneQB"/></div>
+      <div><Profile name="Ignacio" role="DS SWE" github="ignacioparicio"/></div>
+      <div><Profile name="Jiri" role="DE SWE" github="jiriklein"/></div>
+    </div>
+  </div>
+
+  <div class="p-1">
+    <div><h3>Design team</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Gabriel" role="Visual Designer" github="GabrielComymQB"/></div>
+      <div><Profile name="Hamza" role="Design Research" github="hamzaoza"/></div>
+    </div>
+  </div>
 </div>
 
 <div class="flex">
+  <div class="p-1">
+    <div><h3>Viz team</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Lim" role="Viz tech lead" github="limdauto"/></div>
+      <div><Profile name="Liam" role="Front end" github="bru5"/></div>
+      <div><Profile name="Susanna" role="Front end" github="studioswong"/></div>
+      <div><Profile name="Rashida" role="Front end" github="rashidakanchwala"/></div> 
+    </div>
+  </div>
 
-<div class="flex-auto">
-  <h3>Viz team</h3>
-
-  <div class="grid grid-cols-4 gap-1 p-2">
-    <div><Profile name="Lim" role="Viz tech lead" github="limdauto"/></div>
-    <div><Profile name="Liam" role="Front end" github="bru5"/></div>
-    <div><Profile name="Susanna" role="Front end" github="studioswong"/></div>
-    <div><Profile name="Rashida" role="Front end" github="rashidakanchwala"/></div> 
+  <div class="p-1">
+    <div><h3>Product</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Yetu" role="Product Lead" github="yetudada"/></div>
+      <div><Profile name="Joel" role="Product" github="datajoely"/></div>
+      <div><Profile name="Jo" role="Tech Writer" github="stichbury"/></div>
+    </div>
   </div>
 </div>
-<div class="flex-auto">
-<h3>Product</h3>
-<div class="grid grid-cols-4 gap-1 p-2">
-<div><Profile name="Yetu" role="Product Lead" github="yetudada"/></div>
-<div><Profile name="Joel" role="Product" github="datajoely"/></div>
-<div><Profile name="Jo" role="Tech Writer" github="stichbury"/></div>
-<div><Profile name="Gabriel" role="Designer" github="GabrielComymQB"/></div>
-</div>
-</div>
-</div>
+
+
 <Socials />
 
 ---
