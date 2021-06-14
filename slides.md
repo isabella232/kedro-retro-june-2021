@@ -399,7 +399,7 @@ layout: quote
 
 <v-clicks>
 
-- 👩‍🔬 Experiment tracking (via the `KedroSession`)
+- 👩‍🔬 Experiment tracking
 - 🎁 Packaging modular pipelines
 - ⏱ Diffing with Dolt
 - ⚙️ Configuration optimisation
