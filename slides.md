@@ -439,7 +439,7 @@ layout: quote
 </div>
 
 <div v-click>
-<h3 class='p-2 m-3 opacity-100 animate-pulse'><span class="p-1 bg-dark-500 rounded text-yellow-500 mr-2"> <carbon-progress-bar-round class="inline text-yellow-500"/> IN PROGRESS</span>Design Phase</h3>
+<h3 class='p-2 m-3 opacity-100 animate-pulse'><span class="p-1 bg-dark-500 rounded text-yellow-500 mr-2"> <carbon-progress-bar-round class="inline text-yellow-500"/> IN PROGRESS</span>Prototype Phase</h3>
 
 <div grid="~ cols-3 gap-4">
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
