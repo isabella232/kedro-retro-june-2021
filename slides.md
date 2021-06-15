@@ -114,20 +114,20 @@ url: https://quantumblacklabs.github.io/kedro-viz
   <div class="p-1">
     <div><h3>Framework team</h3></div>
     <div class="flex p-2 gap-3">
-      <div><Profile name="Ivan" role="Tech lead" github="idanov"/></div>
-      <div><Profile name="Lorena" role="SWE" github="lorenabalan"/></div>
-      <div><Profile name="Merel" role="SWE" github="MerelTheisenQB"/></div>
-      <div><Profile name="Antony" role="DS SWE" github="AntonyMilneQB"/></div>
-      <div><Profile name="Ignacio" role="DS SWE" github="ignacioparicio"/></div>
-      <div><Profile name="Jiri" role="DE SWE" github="jiriklein"/></div>
+      <div><Profile name="Ivan" role="Tech lead" github="idanov" country="🇧🇬"/></div>
+      <div><Profile name="Lorena" role="SWE" github="lorenabalan" country="🇷🇴"/></div>
+      <div><Profile name="Merel" role="SWE" github="MerelTheisenQB" country="🇳🇱"/></div>
+      <div><Profile name="Antony" role="DS SWE" github="AntonyMilneQB" country="🇬🇧"/></div>
+      <div><Profile name="Ignacio" role="DS SWE" github="ignacioparicio" country="🇪🇸"/></div>
+      <div><Profile name="Jiri" role="DE SWE" github="jiriklein" country="🇨🇿"/></div>
     </div>
   </div>
 
   <div class="p-1">
     <div><h3>Design team</h3></div>
     <div class="flex p-2 gap-3">
-      <div><Profile name="Gabriel" role="Visual Designer" github="GabrielComymQB"/></div>
-      <div><Profile name="Hamza" role="Design Research" github="hamzaoza"/></div>
+      <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
+      <div><Profile name="Hamza" role="Design Research" github="hamzaoza" country="🇬🇧 🇵🇰"/></div>
     </div>
   </div>
 </div>
@@ -136,19 +136,20 @@ url: https://quantumblacklabs.github.io/kedro-viz
   <div class="p-1">
     <div><h3>Viz team</h3></div>
     <div class="flex p-2 gap-3">
-      <div><Profile name="Lim" role="Viz tech lead" github="limdauto"/></div>
-      <div><Profile name="Liam" role="Front end" github="bru5"/></div>
-      <div><Profile name="Susanna" role="Front end" github="studioswong"/></div>
-      <div><Profile name="Rashida" role="Front end" github="rashidakanchwala"/></div> 
+      <div><Profile name="Lim" role="Viz tech lead" github="limdauto" country="🇻🇳"/></div>
+      <div><Profile name="Liam" role="Front end" github="bru5" country="🇬🇧"/></div>
+      <div><Profile name="Susanna" role="Front end" github="studioswong"
+      country="🇭🇰 🇦🇺"/></div>
+      <div><Profile name="Rashida" role="Front end" country="🏳" github="rashidakanchwala"/></div> 
     </div>
   </div>
 
   <div class="p-1">
     <div><h3>Product</h3></div>
     <div class="flex p-2 gap-3">
-      <div><Profile name="Yetu" role="Product Lead" github="yetudada"/></div>
-      <div><Profile name="Joel" role="Product" github="datajoely"/></div>
-      <div><Profile name="Jo" role="Tech Writer" github="stichbury"/></div>
+      <div><Profile name="Yetu" role="Product Lead" github="yetudada" country="🇿🇦"/></div>
+      <div><Profile name="Joel" role="Product" github="datajoely" country="🇬🇧"/></div>
+      <div><Profile name="Jo" role="Tech Writer" github="stichbury" country="🏴󠁧󠁢󠁷󠁬󠁳󠁿"/></div>
     </div>
   </div>
 </div>
@@ -216,9 +217,9 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
   <div class="w-50 m-2">
     <div class="bg-dark-500 rounded-lg flex flex-col content-between ">
-      <fluent-split-horizontal-16-regular class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
+      <simple-icons-plotly class="text-3em m-auto mt-2 -mb-2 h-10 text-purple-400"/>
         <p class="text-center text-0.8em">
-          Split navigation panel
+          Plotly dataset 
         </p>
     </div>
   </div>
@@ -439,7 +440,7 @@ layout: quote
 </div>
 
 <div v-click>
-<h3 class='p-2 m-3 opacity-100 animate-pulse'><span class="p-1 bg-dark-500 rounded text-yellow-500 mr-2"> <carbon-progress-bar-round class="inline text-yellow-500"/> IN PROGRESS</span>Prototype Phase</h3>
+<h3 class='p-2 m-3 opacity-100 animate-pulse'><span class="p-1 bg-dark-500 rounded text-yellow-500 mr-2"> <carbon-progress-bar-round class="inline text-yellow-500"/> IN PROGRESS</span>Discovery Phase</h3>
 
 <div grid="~ cols-3 gap-4">
 <div class="relative max-w-60 overflow-hidden rounded-lg shadow-lg">
@@ -474,6 +475,7 @@ layout: quote
 <Socials />
 <Speaker name="Merel"/>
 
+
 ---
 
 # Modular pipeline packaging
@@ -494,14 +496,12 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
   <p class="text-s">We want it to becomes common practice to re-use entire pipelines across different use cases.</p>
 </v-click>
 
-
-<div grid="~ cols-3 ">
-  <v-click><div class="flex flex-col border rounded m-1  border-dark-400">
+<v-click>
+<div grid="~ cols-3 "><div class="flex flex-col border rounded m-1  border-dark-400">
     <div class="m-auto">
       <KedroIcon class="h-max vertical-center rounded-full bg-dark-500 m-3"/>
     </div>
-  </div></v-click>
-  <v-click>
+  </div>
     <div class="flex flex-col border rounded m-1 border-dark-400">
     <div class="m-auto text-center">
       <Arrow x1=600 y1=470 x2=380 y2=470 class="text-yellow-500 text-xl animate-pulse"/>
@@ -510,8 +510,6 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
       <Arrow x1=380 y1=360 x2=600 y2=360 class="text-yellow-500 text-xl animate-pulse"/>
     </div>
   </div>
-  </v-click>
-  <v-click>
   <div class="flex flex-col border rounded m-1 border-dark-400">
     <div class="m-auto mt-2">    
       <span>
@@ -531,8 +529,8 @@ Our first iteration of our 'modular pipelines' feature (v0.16.2).
       <p class="text-xs text-gray-300 text-center">Any PyPI like endpoint</p>
     </div>
   </div>
-  </v-click>
 </div>
+</v-click>
 
 
 <Speaker name="Lim"/>
@@ -679,10 +677,9 @@ $ dolt
                 </div>
                 <div class=""><img src="/discord_qr.svg" class="w-25 mb-3 ml-3 mr-6 rounded" /></div>
             </div>
-            <iframe src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+              <iframe src="https://discord.com/widget?id=778216384475693066&theme=dark" width="400" height="220" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
     </div>
-    <v-click at="1">
         <div class="object-center">
             <div v-click class="">
                 <p class="text-sm text-gray-500"></p>
@@ -722,93 +719,6 @@ $ dolt
                     </tbody>
                 </table>
             </div>
-        </div>
-    </v-click>
-</div>
-
-
-<Socials />
-
----
-
-# Community improvements
-
-<Speaker name="Yetu"/>
-
-
-<div grid="~ cols-2 gap-4">
-    <div>
-        <div class="mb-12">
-            <div class="flex opacity-10">
-                <div class="flex-1">
-                    <p class="text-gray-500 text-sm inline">
-                        Slide into our DMs on
-                    </p>
-                    <p class="inline bg-indigo-400 text-black p-1 rounded font-mono text-xs inline">
-                        Discord
-                        <carbon-logo-discord class="inline" />
-                    </p>
-                    <p class="text-sm">
-                        Open forum to chat
-                        <carbon-chat-bot class="inline" />
-                        with the dev team and for the community to assist support each other
-                        <carbon-help class="inline" />
-                    </p>
-                </div>
-                <div class=""><img src="/discord_qr.svg" class="w-25 mb-3 ml-3 mr-6 rounded" /></div>
-            </div>
-            <iframe  src="https://discord.com/widget?id=778216384475693066&theme=dark" allowtransparency="true" width="400" height="220" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="opacity-10"></iframe>
-        </div>
-    </div>
-    <div class="object-center ">
-        <div class="opacity-10">
-            <p class="text-sm text-gray-500"></p>
-            <p class="inline bg-gray-300 text-black p-1 rounded font-mono text-xs">
-                GitHub Discussions
-                <carbon-logo-github class="inline m-1" />
-            </p>
-            will help codify knowledge 🙌
-            <p class="text-sm">
-                Threaded conversations
-                <twemoji-thread class="inline" />
-                , answers marked by the maintainer
-                <carbon-checkmark-filled class="inline text-green-400" /> <br />
-                and pinned announcements
-                <carbon-pin-filled class="inline text-pink-500" />
-            </p>
-            <table class="tg">
-                <thead>
-                    <tr>
-                        <td class="tg-0pky">🙌</td>
-                        <td class="tg-0pky"><span style="font-style: normal;">Show and tell</span></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="tg-0lax">💡</td>
-                        <td class="tg-0lax">Ideas</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">🙏</td>
-                        <td class="tg-0lax">Q&amp;A</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">🆘</td>
-                        <td class="tg-0lax">Help</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <v-click>
-            <div abs class="abs-tl mt-40 ml-40 ">
-            <div><img src="/kedroid.png" class="transform -rotate-10 h-30 inline"></div>
-          </div>
-          <div abs class="abs-tl mt-47 ml-72 bg-dark-800 p-5 bg-opacity-80 rounded-1em">
-            <p class="inline text-1em">Remember! Helpful </p>
-            <p class="inline text-2.0em text-yellow-500 p-2">Kedroids</p>
-            <p class="inline text-1em">get cool merch <KedroIcon class="inline h-9 align-top"/></p>
-          </div>
-        </v-click>
         <div v-click class="mt-5">
             <p class="text-sm text-red-400 inline">
                 Deprecation 😭 of
@@ -823,10 +733,20 @@ $ dolt
                 and other platforms
             </p>
         </div>
+        <v-click>
+            <div abs class="abs-tl w-screen h-screen flex bg-gradient-to-b from-dark-400 to-dark-900 opacity-90"></div>
+            <div abs class="abs-tl mt-40 ml-40 ">
+            <div><img src="/kedroid.png" class="transform -rotate-10 h-30 inline"></div>
+            </div>
+            <div abs class="abs-tl mt-47 ml-72 bg-dark-800 p-5 bg-opacity-80 rounded-1em">
+              <p class="inline text-1em">Remember! Helpful </p>
+              <p class="inline text-2.0em text-yellow-500 p-2">Kedroids</p>
+              <p class="inline text-1em">get cool merch <KedroIcon class="inline h-9 align-top"/></p>
+            </div>
+        </v-click>
     </div>
-
+    
 </div>
-
 
 <Socials />
 

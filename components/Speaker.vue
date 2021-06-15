@@ -12,9 +12,10 @@ const img = "kedro-retro-june-2021/" + props.name.toString().replace(' ', '_').t
 <template>
   <span abs class="m-1 abs-tr">
     <div class="inline">
-      <p class="text-m mr-3">
+      <p class="text-m mr-3" >
         {{ name }}
-        <img class="ml-2 w-8 h-8 rounded-full border border-yellow-100 inline" :src="img" />
+        <img class="ml-2 w-8 h-8 rounded-full border border-yellow-100 inline" :src="img" 
+        hover="border border-yellow-500"/>
       </p>
     </div>
   </span>
