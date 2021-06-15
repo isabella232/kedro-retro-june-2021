@@ -140,7 +140,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
       <div><Profile name="Liam" role="Front end" github="bru5" country="🇬🇧"/></div>
       <div><Profile name="Susanna" role="Front end" github="studioswong"
       country="🇭🇰 🇦🇺"/></div>
-      <div><Profile name="Rashida" role="Front end" country="🏳" github="rashidakanchwala"/></div> 
+      <div><Profile name="Rashida" role="Front end" country="🇮🇳" github="rashidakanchwala"/></div> 
     </div>
   </div>
 
@@ -156,6 +156,7 @@ url: https://quantumblacklabs.github.io/kedro-viz
 
 
 <Socials />
+
 
 ---
 
