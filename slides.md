@@ -31,8 +31,8 @@ url: https://quantumblacklabs.github.io/kedro-viz
 We’re excited to show you some of the cool stuff we’re currently cooking up and our vision for the future and Kedro's place within the ML ecosystem.
 
 <ul>
-  <li><span @click="$slidev.nav.go(2)" hover="bg-white bg-opacity-10 rounded">🤔 What actually is Kedro?</span></li>
   <li><span @click="$slidev.nav.go(11)" hover="bg-white bg-opacity-10 rounded">🤖 Meet the team</span></li>
+  <li><span @click="$slidev.nav.go(2)" hover="bg-white bg-opacity-10 rounded">🤔 What actually is Kedro?</span></li>
   <li><span @click="$slidev.nav.go(12)" hover="bg-white bg-opacity-10 rounded">👩‍🍳 What have the team been cooking?</span></li>
   <li><span @click="$slidev.nav.go(13)" hover="bg-white bg-opacity-10 rounded">🗑 No context Kedro </span></li>
   <li><span @click="$slidev.nav.go(15)" hover="bg-white bg-opacity-10 rounded">💅 Kedro Viz: Not just a pretty face</span></li>
@@ -42,6 +42,59 @@ We’re excited to show you some of the cool stuff we’re currently cooking up 
 </ul>
 
 <Socials />
+
+---
+
+# Meet the team
+
+
+<div class="flex">
+  <div class="p-1">
+    <div><h3>Framework team</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Ivan" role="Tech lead" github="idanov" country="🇧🇬"/></div>
+      <div><Profile name="Lorena" role="SWE" github="lorenabalan" country="🇷🇴"/></div>
+      <div><Profile name="Merel" role="SWE" github="MerelTheisenQB" country="🇳🇱"/></div>
+      <div><Profile name="Antony" role="DS SWE" github="AntonyMilneQB" country="🇬🇧"/></div>
+      <div><Profile name="Ignacio" role="DS SWE" github="ignacioparicio" country="🇪🇸"/></div>
+      <div><Profile name="Jiri" role="DE SWE" github="jiriklein" country="🇨🇿"/></div>
+    </div>
+  </div>
+
+  <div class="p-1">
+    <div><h3>Design team</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
+      <div><Profile name="Hamza" role="Design Research" github="hamzaoza" country="🇬🇧 🇵🇰"/></div>
+    </div>
+  </div>
+</div>
+
+<div class="flex">
+  <div class="p-1">
+    <div><h3>Viz team</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Lim" role="Viz tech lead" github="limdauto" country="🇻🇳"/></div>
+      <div><Profile name="Liam" role="Front end" github="bru5" country="🇬🇧"/></div>
+      <div><Profile name="Susanna" role="Front end" github="studioswong"
+      country="🇭🇰 🇦🇺"/></div>
+      <div><Profile name="Rashida" role="Front end" country="🇮🇳" github="rashidakanchwala"/></div> 
+    </div>
+  </div>
+
+  <div class="p-1">
+    <div><h3>Product</h3></div>
+    <div class="flex p-2 gap-3">
+      <div><Profile name="Yetu" role="Product Lead" github="yetudada" country="🇿🇦"/></div>
+      <div><Profile name="Joel" role="Product" github="datajoely" country="🇬🇧"/></div>
+      <div><Profile name="Jo" role="Tech Writer" github="stichbury" country="🏴󠁧󠁢󠁷󠁬󠁳󠁿"/></div>
+    </div>
+  </div>
+</div>
+
+
+<Socials />
+
 
 ---
 layout: image-right
@@ -105,59 +158,6 @@ url: https://quantumblacklabs.github.io/kedro-viz
 <Overview />
 <Pointer class="absolute bottom-16"/>
 <Socials />
----
-
-# Meet the team
-
-
-<div class="flex">
-  <div class="p-1">
-    <div><h3>Framework team</h3></div>
-    <div class="flex p-2 gap-3">
-      <div><Profile name="Ivan" role="Tech lead" github="idanov" country="🇧🇬"/></div>
-      <div><Profile name="Lorena" role="SWE" github="lorenabalan" country="🇷🇴"/></div>
-      <div><Profile name="Merel" role="SWE" github="MerelTheisenQB" country="🇳🇱"/></div>
-      <div><Profile name="Antony" role="DS SWE" github="AntonyMilneQB" country="🇬🇧"/></div>
-      <div><Profile name="Ignacio" role="DS SWE" github="ignacioparicio" country="🇪🇸"/></div>
-      <div><Profile name="Jiri" role="DE SWE" github="jiriklein" country="🇨🇿"/></div>
-    </div>
-  </div>
-
-  <div class="p-1">
-    <div><h3>Design team</h3></div>
-    <div class="flex p-2 gap-3">
-      <div><Profile name="Gabriel" role="Visual Designer"  country="🇧🇷" github="GabrielComymQB"/></div>
-      <div><Profile name="Hamza" role="Design Research" github="hamzaoza" country="🇬🇧 🇵🇰"/></div>
-    </div>
-  </div>
-</div>
-
-<div class="flex">
-  <div class="p-1">
-    <div><h3>Viz team</h3></div>
-    <div class="flex p-2 gap-3">
-      <div><Profile name="Lim" role="Viz tech lead" github="limdauto" country="🇻🇳"/></div>
-      <div><Profile name="Liam" role="Front end" github="bru5" country="🇬🇧"/></div>
-      <div><Profile name="Susanna" role="Front end" github="studioswong"
-      country="🇭🇰 🇦🇺"/></div>
-      <div><Profile name="Rashida" role="Front end" country="🇮🇳" github="rashidakanchwala"/></div> 
-    </div>
-  </div>
-
-  <div class="p-1">
-    <div><h3>Product</h3></div>
-    <div class="flex p-2 gap-3">
-      <div><Profile name="Yetu" role="Product Lead" github="yetudada" country="🇿🇦"/></div>
-      <div><Profile name="Joel" role="Product" github="datajoely" country="🇬🇧"/></div>
-      <div><Profile name="Jo" role="Tech Writer" github="stichbury" country="🏴󠁧󠁢󠁷󠁬󠁳󠁿"/></div>
-    </div>
-  </div>
-</div>
-
-
-<Socials />
-
-
 ---
 
 ## What have the team been cooking recently 👩‍🍳?
